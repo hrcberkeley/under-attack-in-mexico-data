@@ -1,0 +1,11 @@
+key,label,evidence_rule
+KILLED,Killed,"heading «Killed», or per-person qualifier states death, or prose states the victim died"
+FORCIBLY_DISAPPEARED,Disappeared — whereabouts unresolved,victim never located as of the account's latest report; source uses «forcibly disappeared»/«disappeared»
+ABDUCTED_RECOVERED,"Abducted, later located alive","abducted, then located alive (rescued/released) — assigned per person"
+ATTEMPTED_ASSASSINATION,Lethal force — victim not struck,"lethal force directed at a victim who was not physically struck, stated at the person (never promoted from a property attack)"
+GRAVELY_INJURED,Gravely injured,"struck by gunfire and survived, or a stated gravity marker (hospitalization / «grave» / life-threatening / reconstructive surgery / wound count)"
+GRAVELY_ASSAULTED,Gravely assaulted,"non-firearm beating with a stated lasting-injury marker (stitches, fracture, surgery, hospitalization, documented multiple contusions)"
+INJURED,Injured,"struck by gunfire or violence and survived, where the account states the injury as minor / carries no gravity marker"
+ASSAULTED,Assaulted,physical assault with no stated lasting-injury marker
+THREATS_INTIMIDATION,"Threats, harassment, property attack",threats / harassment / property crime with no physical injury to the person stated
+PATTERN_OF_ATTACKS,Pattern of attacks (container),"heading-flagged multi-event escalating case; a container requiring a sub-timeline, not one outcome"

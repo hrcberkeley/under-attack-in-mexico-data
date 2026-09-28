@@ -1,0 +1,7699 @@
+{
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Miguel Badillo, National Intelligence Center reduces salaries by 50% and workforce by 30%, Contralínea (7 December 2021)",
+   "date": "2021-12-07",
+   "link": "https://contralinea.com.mx/interno/semana/centro-nacional-de-inteligencia-reduce-50-salarios-y-30-planta-laboral/",
+   "short": "Contralínea — CNI salary and staff cuts (7 Dec 2021)",
+   "kind": "open",
+   "count": 25
+  },
+  {
+   "id": "s2",
+   "title": "Miguel Badillo, The new structure and salaries of the National Intelligence Center, Contralínea (6 May 2023)",
+   "date": "2023-05-06",
+   "link": "https://contralinea.com.mx/interno/semana/la-nueva-estructura-y-los-salarios-del-centro-nacional-de-inteligencia/",
+   "short": "Contralínea — CNI structure and salaries (6 May 2023)",
+   "kind": "open",
+   "count": 28
+  },
+  {
+   "id": "s3",
+   "title": "Uploaded by David Rodriguez, Secretariat of National Defense DN1/V/PSE/A4/N4/F1/F3/002 Manual on the Organization and Functioning of the National Defense General Staff – Volume III, Scribd 2024 (2024)",
+   "date": "2024-02-28",
+   "link": "https://www.scribd.com/document/762041203/Mof-Tomo-III",
+   "short": "SEDENA — Organization manual of the Defense General Staff, Vol. III (2024)",
+   "kind": "open",
+   "count": 50
+  },
+  {
+   "id": "s4",
+   "title": "A.C.A. No. ALTAMINIS.VYE-08-2021 SELVA.- 6 SEP. 2021.pages (SDNA_0082)",
+   "date": "",
+   "link": "",
+   "short": "SEDENA — CMI Administrative Council membership",
+   "kind": "internal",
+   "count": 6
+  },
+  {
+   "id": "s5",
+   "title": "20210623 Presentación Centros de Fusion (SDNA_0091)",
+   "date": "2021-06-23",
+   "link": "SDNA_0091",
+   "short": "SEDENA — Central and regional fusion centres",
+   "kind": "sdna",
+   "count": 26
+  },
+  {
+   "id": "s7",
+   "title": "VISIÓN DE LA SEDENA MEXICO - ISRAEL 29 JUN. 2022.pdf (SDNA_0093)",
+   "date": "2022-06-29",
+   "link": "No Link",
+   "short": "SEDENA — COC and Israeli cooperation",
+   "kind": "internal",
+   "count": 7
+  },
+  {
+   "id": "s8",
+   "title": "presentacion planilla organica batallon mixto intl.-cmi.pptx (SDNA_0032)",
+   "date": "2021-08-07",
+   "link": "SDNA_0032",
+   "short": "SEDENA — Proposed CMI org chart",
+   "kind": "sdna",
+   "count": 116
+  },
+  {
+   "id": "s9",
+   "title": "Anexo al Memo No. 21-6711.pptx (SDNA_0091)",
+   "date": "2021-08-07",
+   "link": "SDNA_0091",
+   "short": "SEDENA — Proposed Intelligence Subdirectorate org chart",
+   "kind": "sdna",
+   "count": 41
+  },
+  {
+   "id": "s10",
+   "title": "Security Cabinet, Government of Mexico (Last accessed on 3 September 2026)",
+   "date": "2026-09-03",
+   "link": "https://gabinetedeseguridad.gob.mx/",
+   "short": "Government of Mexico — Security Cabinet roster (accessed 3 Sep 2026)",
+   "kind": "open",
+   "count": 9
+  },
+  {
+   "id": "s11",
+   "title": "Directorio CERFIS (SDNA_0095)",
+   "date": "2022",
+   "link": "Directorio CERFIS.key",
+   "short": "SEDENA — CERFI subcomponents directory",
+   "kind": "internal",
+   "count": 5
+  },
+  {
+   "id": "s12",
+   "title": "ULTIMO.pages (SDNA_0096)",
+   "date": "",
+   "link": "",
+   "short": "SEDENA — COC history and command structure",
+   "kind": "internal",
+   "count": 37
+  },
+  {
+   "id": "s13",
+   "title": "M.O.F. CMCIA .pages (SDNA_0099)",
+   "date": "",
+   "link": "",
+   "short": "SEDENA — Command structure and history, draft",
+   "kind": "internal",
+   "count": 44
+  },
+  {
+   "id": "s14",
+   "title": "ejemplo de planilla organica.docx (SDNA_0094)",
+   "date": "2021-10-01",
+   "link": "not downloaded",
+   "short": "SEDENA — Proposed Fusion Intelligence Battalion units",
+   "kind": "internal",
+   "count": 86
+  }
+ ],
+ "conflicts": [
+  [
+   "s1",
+   "s2"
+  ],
+  [
+   "s13",
+   "s9"
+  ],
+  [
+   "s13",
+   "s3"
+  ]
+ ],
+ "cerfiSource": "s5",
+ "nodes": [
+  {
+   "n": 1,
+   "id": "lqTdwKVyBlNljflqLEKF-1",
+   "en": "Security Cabinet",
+   "es": "Gabinete de Seguridad",
+   "sources": [
+    "s10"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-134",
+   "alt": []
+  },
+  {
+   "n": 2,
+   "id": "lqTdwKVyBlNljflqLEKF-52",
+   "en": "National Guard",
+   "es": "Guardia Nacional",
+   "sources": [
+    "s10",
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-12"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "lqTdwKVyBlNljflqLEKF-12",
+   "en": "Secretariat of National Defense",
+   "es": "Secretaría de la Defensa Nacional",
+   "sources": [
+    "s10",
+    "s5",
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": []
+  },
+  {
+   "n": 4,
+   "id": "lqTdwKVyBlNljflqLEKF-45",
+   "en": "Secretariat of the Navy",
+   "es": "Secretaría de Marina",
+   "sources": [
+    "s10",
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": []
+  },
+  {
+   "n": 5,
+   "id": "lqTdwKVyBlNljflqLEKF-2",
+   "en": "Attorney General of the Republic",
+   "es": "Fiscalía General de la República",
+   "sources": [
+    "s10",
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": []
+  },
+  {
+   "n": 6,
+   "id": "lqTdwKVyBlNljflqLEKF-3",
+   "en": "Specialized Prosecutor's Office for the Investigation of Federal Crimes",
+   "es": "Subprocuraduría Especializada en Investigación de Delitos Federales",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-2",
+   "alt": []
+  },
+  {
+   "n": 7,
+   "id": "lqTdwKVyBlNljflqLEKF-4",
+   "en": "Criminal Investigation Agency",
+   "es": "Agencia de Investigación Criminal",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-2",
+   "alt": []
+  },
+  {
+   "n": 8,
+   "id": "lqTdwKVyBlNljflqLEKF-5",
+   "en": "National Center for Planning, Analysis, and Information against Crime",
+   "es": "(Centro Nacional de Planeación, Análisis e Información para el Combate a la Delincuencia",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-4",
+   "alt": []
+  },
+  {
+   "n": 9,
+   "id": "lqTdwKVyBlNljflqLEKF-6",
+   "en": "Federal Ministerial Police",
+   "es": "Policía Federal Ministerial",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-4",
+   "alt": []
+  },
+  {
+   "n": 10,
+   "id": "lqTdwKVyBlNljflqLEKF-7",
+   "en": "Deputy Attorney General for Regional Control, Criminal Procedures, and Amparo",
+   "es": "Subprocuraduría de Control Regional, Procedimientos Penales y Amparo",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-2",
+   "alt": []
+  },
+  {
+   "n": 11,
+   "id": "lqTdwKVyBlNljflqLEKF-8",
+   "en": "Deputy Attorney General for Legal and International Affairs",
+   "es": "Subprocuraduría Jurídica y de Asuntos Internacionales",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-2",
+   "alt": []
+  },
+  {
+   "n": 12,
+   "id": "lqTdwKVyBlNljflqLEKF-9",
+   "en": "Specialized Prosecutor's Office for Organized Crime Investigation",
+   "es": "Subprocuraduría Especializada en Investigación de Delincuencia Organizada",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-2",
+   "alt": []
+  },
+  {
+   "n": 13,
+   "id": "lqTdwKVyBlNljflqLEKF-135",
+   "en": "Secretariat of the Interior",
+   "es": "Secretaría de Gobernación",
+   "sources": [
+    "s10"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": []
+  },
+  {
+   "n": 14,
+   "id": "lqTdwKVyBlNljflqLEKF-37",
+   "en": "Secretariat of Security and Civilian Protection",
+   "es": "Secretaría de Seguridad y Protección Ciudadana",
+   "sources": [
+    "s10",
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": []
+  },
+  {
+   "n": 15,
+   "id": "lqTdwKVyBlNljflqLEKF-61",
+   "en": "National Intelligence Center",
+   "es": "Centro Nacional de Inteligencia",
+   "sources": [
+    "s10",
+    "s11",
+    "s1",
+    "s2"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-1",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-37"
+   ],
+   "bothAccounts": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "n": 24,
+   "id": "lqTdwKVyBlNljflqLEKF-70",
+   "en": "Director General",
+   "es": "Director General",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-61",
+   "alt": [],
+   "dup": "g1",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 25,
+   "id": "lqTdwKVyBlNljflqLEKF-71",
+   "en": "General Secretary",
+   "es": "Secretario General",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "dup": "g2",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 26,
+   "id": "lqTdwKVyBlNljflqLEKF-72",
+   "en": "General Coordinator of Counterintelligence",
+   "es": "Coordinadora General de Contrainteligencia",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "dup": "g3",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 27,
+   "id": "lqTdwKVyBlNljflqLEKF-73",
+   "en": "Institutional Security Direction",
+   "es": "Dirección de Seguridad Institucional",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-72",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 28,
+   "id": "lqTdwKVyBlNljflqLEKF-74",
+   "en": "External Counterintelligence Direction",
+   "es": "Dirección de Contrainteligencia Externa",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-72",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 29,
+   "id": "lqTdwKVyBlNljflqLEKF-75",
+   "en": "Internal Counterintelligence Direction",
+   "es": "Dirección de Contrainteligencia interna",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-72",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 30,
+   "id": "lqTdwKVyBlNljflqLEKF-76",
+   "en": "General Coordinator of Analysis",
+   "es": "Coordinación General de Análisis",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 31,
+   "id": "lqTdwKVyBlNljflqLEKF-77",
+   "en": "International Affairs Direction",
+   "es": "Dirección de Asuntos Internacionales",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-76",
+   "alt": [],
+   "dup": "g4",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 32,
+   "id": "lqTdwKVyBlNljflqLEKF-78",
+   "en": "Analysis Direction",
+   "es": "Dirección de Análisis",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-76",
+   "alt": [],
+   "dup": "g5",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 33,
+   "id": "lqTdwKVyBlNljflqLEKF-79",
+   "en": "Intelligence School for National Security",
+   "es": "Escuela de Inteligencia para la Seguridad Nacional",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-76",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 34,
+   "id": "lqTdwKVyBlNljflqLEKF-80",
+   "en": "General Coordinator of Operations",
+   "es": "Coordinación General de Operaciones",
+   "sources": [
+    "s2"
+   ],
+   "note": "needs to be linked",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "dup": "g6",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 35,
+   "id": "lqTdwKVyBlNljflqLEKF-81",
+   "en": "National Intelligence Fusion Center",
+   "es": "Centro Nacional de Fusión",
+   "sources": [
+    "s2",
+    "s5"
+   ],
+   "note": "may need link",
+   "cerfi": true,
+   "via": "containment",
+   "disseminates": [
+    "General Coordinator of Operations"
+   ],
+   "parent": "lqTdwKVyBlNljflqLEKF-80",
+   "alt": [],
+   "dup": "g7",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 36,
+   "id": "lqTdwKVyBlNljflqLEKF-82",
+   "en": "Direction for Addressing Organized Crime",
+   "es": "Dirección de Atención a la Delincuencia Organizada",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-80",
+   "alt": [],
+   "dup": "g8",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 37,
+   "id": "lqTdwKVyBlNljflqLEKF-83",
+   "en": "Violent Extremism Direction",
+   "es": "Dirección de Extremismos Violentos",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-80",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 38,
+   "id": "lqTdwKVyBlNljflqLEKF-84",
+   "en": "General Coordinator of Technical Services",
+   "es": "Coordinación General de Servicios Técnicos",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 39,
+   "id": "lqTdwKVyBlNljflqLEKF-85",
+   "en": "Interventions Direction",
+   "es": "Dirección de Intervenciones",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-84",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 40,
+   "id": "lqTdwKVyBlNljflqLEKF-86",
+   "en": "Technological Development Direction",
+   "es": "Dirección de Desarrollo Tecnológico",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-84",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 41,
+   "id": "lqTdwKVyBlNljflqLEKF-87",
+   "en": "Operational Support Direction",
+   "es": "Dirección de Apoyo a la Operación",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-84",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 42,
+   "id": "lqTdwKVyBlNljflqLEKF-88",
+   "en": "Legal General Coordinator",
+   "es": "Coordinación General Jurídica",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "dup": "g9",
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 43,
+   "id": "lqTdwKVyBlNljflqLEKF-89",
+   "en": "Litigation Direction",
+   "es": "Dirección de lo Contencioso",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-88",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 44,
+   "id": "lqTdwKVyBlNljflqLEKF-90",
+   "en": "Advisory and Regulation Direction",
+   "es": "Dirección de lo Consultivo y Normatividad",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-88",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 45,
+   "id": "lqTdwKVyBlNljflqLEKF-91",
+   "en": "General Coordinator of Investigations",
+   "es": "Coordinación General de Investigación",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 46,
+   "id": "lqTdwKVyBlNljflqLEKF-92",
+   "en": "Northern Zone Investigation Direction",
+   "es": "Dirección de Investigación Zona Norte",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-91",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 47,
+   "id": "lqTdwKVyBlNljflqLEKF-93",
+   "en": "Central Zone Investigation Direction",
+   "es": "Dirección de Investigación Zona Centro",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-91",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 48,
+   "id": "lqTdwKVyBlNljflqLEKF-94",
+   "en": "Southern Zone Direction",
+   "es": "Dirección de Investigación Zona Sur",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-91",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 49,
+   "id": "lqTdwKVyBlNljflqLEKF-95",
+   "en": "General Coordinator of Administration",
+   "es": "Coordinación General Administrativa",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-70",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 50,
+   "id": "lqTdwKVyBlNljflqLEKF-96",
+   "en": "Human Resources Direction",
+   "es": "Dirección de Recursos Humanos",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-95",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 51,
+   "id": "lqTdwKVyBlNljflqLEKF-97",
+   "en": "Material Resources Direction",
+   "es": "Dirección de Recursos Materiales",
+   "sources": [
+    "s2"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-95",
+   "alt": [],
+   "conflictsWith": [
+    "s1"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 59,
+   "id": "lqTdwKVyBlNljflqLEKF-105",
+   "en": "Director General",
+   "es": "Director General",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-61",
+   "alt": [],
+   "dup": "g1",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 60,
+   "id": "lqTdwKVyBlNljflqLEKF-106",
+   "en": "General Secretary",
+   "es": "Secretario General",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "dup": "g2",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 61,
+   "id": "lqTdwKVyBlNljflqLEKF-107",
+   "en": "General Coordinator of Counterintelligence",
+   "es": "Coordinadora General de Contrainteligencia",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "dup": "g3",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 62,
+   "id": "lqTdwKVyBlNljflqLEKF-108",
+   "en": "Cyber Intelligence Direction",
+   "es": "Dirección de Inteligencia Cibernética",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-107",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 63,
+   "id": "lqTdwKVyBlNljflqLEKF-109",
+   "en": "Counter-Terrorism Direction",
+   "es": "Dirección de Atención al Terrorismo",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-107",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 64,
+   "id": "lqTdwKVyBlNljflqLEKF-110",
+   "en": "State Counterintelligence Direction",
+   "es": "Dirección de Contrainteligencia para el Estado",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-107",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 65,
+   "id": "lqTdwKVyBlNljflqLEKF-111",
+   "en": "General Coordinator of Operations",
+   "es": "Coordinación General de Operaciones",
+   "sources": [
+    "s1"
+   ],
+   "note": "needs to be linked",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "dup": "g6",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 66,
+   "id": "lqTdwKVyBlNljflqLEKF-112",
+   "en": "Public Safety Affairs Direction",
+   "es": "Dirección de Atención a la SeguridadPública",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-111",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 67,
+   "id": "lqTdwKVyBlNljflqLEKF-113",
+   "en": "National Intelligence Fusion Center",
+   "es": "Centro Nacional de Fusión",
+   "sources": [
+    "s1",
+    "s5"
+   ],
+   "note": "may need link",
+   "cerfi": true,
+   "via": "containment",
+   "disseminates": [
+    "General Coordinator of Operations"
+   ],
+   "parent": "lqTdwKVyBlNljflqLEKF-111",
+   "alt": [],
+   "dup": "g7",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 68,
+   "id": "lqTdwKVyBlNljflqLEKF-114",
+   "en": "Direction for Addressing Organized Crime",
+   "es": "Dirección de Atención a la Delincuencia Organizada",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-111",
+   "alt": [],
+   "dup": "g8",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 69,
+   "id": "lqTdwKVyBlNljflqLEKF-115",
+   "en": "General Coordination of Technological Development",
+   "es": "Coordinación General de Desarrollo Tecnológico",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 70,
+   "id": "lqTdwKVyBlNljflqLEKF-116",
+   "en": "Information Technology Direction",
+   "es": "Dirección de Tecnologías de Información",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-115",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 71,
+   "id": "lqTdwKVyBlNljflqLEKF-117",
+   "en": "Strategic Technology Projects Direction",
+   "es": "Dirección de Proyectos Tecnológicos Estratégicos",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-115",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 72,
+   "id": "lqTdwKVyBlNljflqLEKF-118",
+   "en": "Operational Support Direction",
+   "es": "Dirección de Seguridad e Innovación Tecnológica",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-115",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 73,
+   "id": "lqTdwKVyBlNljflqLEKF-119",
+   "en": "Legal General Coordinator",
+   "es": "Coordinación General Jurídica",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "dup": "g9",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 74,
+   "id": "lqTdwKVyBlNljflqLEKF-120",
+   "en": "Administration, Finance, and Human Development Unit",
+   "es": "Administration, Finance, and Human Development Unit",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 75,
+   "id": "lqTdwKVyBlNljflqLEKF-121",
+   "en": "General Coordinator of Intelligence",
+   "es": "Coordinadora General de Inteligencia",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-105",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 76,
+   "id": "lqTdwKVyBlNljflqLEKF-122",
+   "en": "International Affairs Direction",
+   "es": "Dirección de Asuntos Internacionales",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-121",
+   "alt": [],
+   "dup": "g4",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 77,
+   "id": "lqTdwKVyBlNljflqLEKF-123",
+   "en": "13 Representations abroad",
+   "es": "13 Representaciones en el extranjero",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-122",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 78,
+   "id": "lqTdwKVyBlNljflqLEKF-124",
+   "en": "Canada, Colombia, Cuba, El Salvador, Spain, Guatemala, United States (Washington, El Paso, Los Angeles, San Diego), Nicaragua, Panama and Peru",
+   "es": "Canadá, Colombia, Cuba, El Salvador, España, Guatemala, Estados Unidos (Washington, El Paso, Los Ángeles, San Diego), Nicaragua, Panamá y Perú",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-123",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 79,
+   "id": "lqTdwKVyBlNljflqLEKF-125",
+   "en": "National Information Network Direction",
+   "es": "Dirección de la Red Nacional de Información",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-121",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 80,
+   "id": "lqTdwKVyBlNljflqLEKF-126",
+   "en": "Open Source Intelligence Direction",
+   "es": "Dirección de Información de Fuentes Abiertas",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-121",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 81,
+   "id": "lqTdwKVyBlNljflqLEKF-127",
+   "en": "Investigation Direction",
+   "es": "Dirección de Investigación",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-121",
+   "alt": [],
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 82,
+   "id": "lqTdwKVyBlNljflqLEKF-128",
+   "en": "Analysis Direction",
+   "es": "Dirección de Análisis",
+   "sources": [
+    "s1"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-121",
+   "alt": [],
+   "dup": "g5",
+   "conflictsWith": [
+    "s2"
+   ],
+   "rival": "s1|s2"
+  },
+  {
+   "n": 87,
+   "id": "lqTdwKVyBlNljflqLEKF-14",
+   "en": "General Staff",
+   "es": "Estado Mayor",
+   "sources": [
+    "s3",
+    "s5",
+    "s13"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-12",
+   "alt": []
+  },
+  {
+   "n": 93,
+   "id": "lqTdwKVyBlNljflqLEKF-20",
+   "en": "Deputy Head of Intelligence",
+   "es": "Subjefatura de Inteligencia",
+   "sources": [
+    "s3",
+    "s5",
+    "s9",
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-14",
+   "alt": []
+  },
+  {
+   "n": 94,
+   "id": "lqTdwKVyBlNljflqLEKF-21",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3",
+    "s9",
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-20",
+   "alt": []
+  },
+  {
+   "n": 95,
+   "id": "lqTdwKVyBlNljflqLEKF-22",
+   "en": "Assistantship",
+   "es": "Ayudantía",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 96,
+   "id": "lqTdwKVyBlNljflqLEKF-23",
+   "en": "Administrative Group",
+   "es": "Grupo Administrativo",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 97,
+   "id": "lqTdwKVyBlNljflqLEKF-24",
+   "en": "Legal Group",
+   "es": "Grupo Jurídico",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 98,
+   "id": "lqTdwKVyBlNljflqLEKF-25",
+   "en": "Public Security Analysis Coordination Group",
+   "es": "Grupo de Coordinación de Análisis de Seguridad Pública",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 99,
+   "id": "lqTdwKVyBlNljflqLEKF-26",
+   "en": "Internal Security Analysis Coordination Group",
+   "es": "Grupo de Coordinación de Análisis de Seguridad Interior",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 100,
+   "id": "lqTdwKVyBlNljflqLEKF-27",
+   "en": "National Security Analysis Coordination Group",
+   "es": "Grupo de Coordinación de Análisis de Seguridad Nacional",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 101,
+   "id": "lqTdwKVyBlNljflqLEKF-28",
+   "en": "Liaison and Coordination Group with the Deputy Head of Investigation and Intelligence of the National Guard",
+   "es": "Grupo de Enlace y Coordinación con la Subjefatura de investigación e inteligencia de la Guardia Nacional",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 116,
+   "id": "lqTdwKVyBlNljflqLEKF-46",
+   "en": "Naval Intelligence Unit",
+   "es": "Unidad de Inteligencia Naval",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-48",
+   "alt": []
+  },
+  {
+   "n": 118,
+   "id": "lqTdwKVyBlNljflqLEKF-48",
+   "en": "General Staff",
+   "es": "Estado Mayor",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-45",
+   "alt": []
+  },
+  {
+   "n": 122,
+   "id": "lqTdwKVyBlNljflqLEKF-53",
+   "en": "Intelligence Direction",
+   "es": "Dirección de Inteligencia",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-52",
+   "alt": []
+  },
+  {
+   "n": 123,
+   "id": "lqTdwKVyBlNljflqLEKF-54",
+   "en": "Investigation Direction",
+   "es": "Dirección de Investigación",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-52",
+   "alt": []
+  },
+  {
+   "n": 124,
+   "id": "lqTdwKVyBlNljflqLEKF-55",
+   "en": "Counternarcotics Direction",
+   "es": "Dirección de Inteligencia",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-52",
+   "alt": []
+  },
+  {
+   "n": 125,
+   "id": "lqTdwKVyBlNljflqLEKF-56",
+   "en": "Regional Intelligence Fusion Center \"Center\"",
+   "es": "CERFI “Centro” (Iguala, Gro.)",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-113",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-81"
+   ]
+  },
+  {
+   "n": 126,
+   "id": "lqTdwKVyBlNljflqLEKF-57",
+   "en": "Regional Intelligence Fusion Center \"Northeast\"",
+   "es": "CERFI “Noreste” (Apodaca, N.L.)",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-113",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-81"
+   ]
+  },
+  {
+   "n": 127,
+   "id": "lqTdwKVyBlNljflqLEKF-58",
+   "en": "Regional Intelligence Fusion Center \"Northwest\"",
+   "es": "CERFI “Noroeste” (Mazatlán, Sin.)",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-113",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-81"
+   ]
+  },
+  {
+   "n": 128,
+   "id": "lqTdwKVyBlNljflqLEKF-59",
+   "en": "Regional Intelligence Fusion Center \"West\"",
+   "es": "CERFI “Occidente” (Manzanillo, Col.)",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-113",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-81"
+   ]
+  },
+  {
+   "n": 129,
+   "id": "lqTdwKVyBlNljflqLEKF-60",
+   "en": "Regional Intelligence Fusion Center \"Southeast\"",
+   "es": "CERFI “ Sureste” (Coatzacoalcos, Ver.)",
+   "sources": [
+    "s5"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-113",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-81"
+   ]
+  },
+  {
+   "n": 135,
+   "id": "lqTdwKVyBlNljflqLEKF-134",
+   "en": "President of the Republic",
+   "es": "Presidencia de la República",
+   "sources": [
+    "s10"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "root",
+   "parent": null,
+   "alt": []
+  },
+  {
+   "n": 136,
+   "id": "lqTdwKVyBlNljflqLEKF-136",
+   "en": "Cyberspace Operations Center",
+   "es": "Centro de Operaciones del Ciberespacio",
+   "sources": [
+    "s3",
+    "s9",
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 144,
+   "id": "lqTdwKVyBlNljflqLEKF-144",
+   "en": "Director or Commander",
+   "es": "Cmte.",
+   "sources": [
+    "s9",
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-136",
+   "alt": []
+  },
+  {
+   "n": 145,
+   "id": "lqTdwKVyBlNljflqLEKF-145",
+   "en": "Deputy Director or Deputy Commander",
+   "es": "2/o. Cmte.",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": []
+  },
+  {
+   "n": 146,
+   "id": "lqTdwKVyBlNljflqLEKF-146",
+   "en": "Monitoring Section",
+   "es": "Sección de Monitoreo",
+   "sources": [
+    "s9",
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": [],
+   "dup": "u1"
+  },
+  {
+   "n": 147,
+   "id": "lqTdwKVyBlNljflqLEKF-147",
+   "en": "Incident Response Section",
+   "es": "Sección de Respuesta a Incidentes",
+   "sources": [
+    "s9",
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": [],
+   "dup": "u2"
+  },
+  {
+   "n": 148,
+   "id": "lqTdwKVyBlNljflqLEKF-148",
+   "en": "Cyberspace Operations Section",
+   "es": "Sección de Operaciones del Ciberespacio",
+   "sources": [
+    "s9",
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": [],
+   "dup": "u3"
+  },
+  {
+   "n": 149,
+   "id": "lqTdwKVyBlNljflqLEKF-149",
+   "en": "Doctrine and Development Section",
+   "es": "Sección de Doctrina y Desarrollo",
+   "sources": [
+    "s9",
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": [],
+   "dup": "u4"
+  },
+  {
+   "n": 150,
+   "id": "lqTdwKVyBlNljflqLEKF-150",
+   "en": "Information Security Section",
+   "es": "Sección de Seguridad de la Información",
+   "sources": [
+    "s9",
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": [],
+   "dup": "u5"
+  },
+  {
+   "n": 151,
+   "id": "lqTdwKVyBlNljflqLEKF-151",
+   "en": "Administration and General Services Section",
+   "es": "Sección Administrativa y Servicios Generales",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": [],
+   "dup": "u6"
+  },
+  {
+   "n": 152,
+   "id": "lqTdwKVyBlNljflqLEKF-152",
+   "en": "Archives Subsection",
+   "es": "Subsección de Archivo",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-169",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 153,
+   "id": "lqTdwKVyBlNljflqLEKF-153",
+   "en": "Classification, Digitization, and Archiving Group",
+   "es": "Grupo de Clasificación, Digitalización y Archivo",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-152",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 154,
+   "id": "lqTdwKVyBlNljflqLEKF-154",
+   "en": "Lending and Background Check Group",
+   "es": "Grupo de Préstamo y Control de Antecedentes",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-152",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 155,
+   "id": "lqTdwKVyBlNljflqLEKF-155",
+   "en": "File Transparency Group",
+   "es": "Grupo de Transparencia de Expedientes",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-152",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 156,
+   "id": "lqTdwKVyBlNljflqLEKF-156",
+   "en": "Documentation Entry Group",
+   "es": "Grupo de Entrada de Documentación",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-152",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 157,
+   "id": "lqTdwKVyBlNljflqLEKF-157",
+   "en": "Documentation Output Group",
+   "es": "Grupo Sistema Integral de Administración de Nómina",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-152",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 163,
+   "id": "lqTdwKVyBlNljflqLEKF-163",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-152",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 169,
+   "id": "lqTdwKVyBlNljflqLEKF-169",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-136",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 170,
+   "id": "lqTdwKVyBlNljflqLEKF-170",
+   "en": "Deputy Head",
+   "es": "Subjefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-169",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 171,
+   "id": "lqTdwKVyBlNljflqLEKF-171",
+   "en": "General Services Subsection",
+   "es": "Subsección de Servicios Generales",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-169",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 172,
+   "id": "lqTdwKVyBlNljflqLEKF-172",
+   "en": "Warehouse Group",
+   "es": "Grupo de Almacén",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-171",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 173,
+   "id": "lqTdwKVyBlNljflqLEKF-173",
+   "en": "Drivers Group",
+   "es": "Grupo de Conductores",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-171",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 177,
+   "id": "lqTdwKVyBlNljflqLEKF-177",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-171",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 178,
+   "id": "lqTdwKVyBlNljflqLEKF-178",
+   "en": "Hairdressers Group",
+   "es": "Grupo de Peluqueros",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-171",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 179,
+   "id": "lqTdwKVyBlNljflqLEKF-179",
+   "en": "General Services Grouping Subsection",
+   "es": "Subsección Agrupamiento Servicios Generales",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-169",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 182,
+   "id": "lqTdwKVyBlNljflqLEKF-182",
+   "en": "Special Commissions Group",
+   "es": "Special Commissions Group",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-179",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 183,
+   "id": "lqTdwKVyBlNljflqLEKF-183",
+   "en": "Processing Group",
+   "es": "Grupo de Trámite",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-179",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 186,
+   "id": "lqTdwKVyBlNljflqLEKF-186",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-179",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 187,
+   "id": "lqTdwKVyBlNljflqLEKF-187",
+   "en": "Administration Subsection",
+   "es": "Subsección Administrativa",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-169",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 193,
+   "id": "lqTdwKVyBlNljflqLEKF-193",
+   "en": "Personnel Group",
+   "es": "Grupo de Personal",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-187",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 194,
+   "id": "lqTdwKVyBlNljflqLEKF-194",
+   "en": "Social Security Group",
+   "es": "Grupo de Seguridad Social",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "mult": 2,
+   "parent": "lqTdwKVyBlNljflqLEKF-187",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 196,
+   "id": "lqTdwKVyBlNljflqLEKF-196",
+   "en": "Detail Group",
+   "es": "Grupo Detall",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-187",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 197,
+   "id": "lqTdwKVyBlNljflqLEKF-197",
+   "en": "Comprehensive Payroll Administration System Group",
+   "es": "Grupo Sistema Integral de Administración de Nómina",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-187",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 198,
+   "id": "lqTdwKVyBlNljflqLEKF-198",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-187",
+   "alt": [],
+   "conflictsWith": [
+    "s12"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 211,
+   "id": "lqTdwKVyBlNljflqLEKF-211",
+   "en": "Administration Section",
+   "es": "Sección Administrativa",
+   "sources": [
+    "s7"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-144",
+   "alt": []
+  },
+  {
+   "n": 212,
+   "id": "lqTdwKVyBlNljflqLEKF-212",
+   "en": "Military Intelligence Center",
+   "es": "Btn. de Inteligencia. / Centro Militar de Inteligencia",
+   "sources": [
+    "s9",
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 228,
+   "id": "lqTdwKVyBlNljflqLEKF-228",
+   "en": "Administrative Council of the CMI",
+   "es": "Consejo Administrativo del Centro Militar de Inteligencia",
+   "sources": [
+    "s4"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-212",
+   "alt": []
+  },
+  {
+   "n": 233,
+   "id": "lqTdwKVyBlNljflqLEKF-233",
+   "en": "Director",
+   "es": "Director",
+   "sources": [
+    "s4"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-228",
+   "alt": []
+  },
+  {
+   "n": 234,
+   "id": "lqTdwKVyBlNljflqLEKF-234",
+   "en": "Deputy Director",
+   "es": "Subdirector",
+   "sources": [
+    "s4"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-233",
+   "alt": []
+  },
+  {
+   "n": 235,
+   "id": "lqTdwKVyBlNljflqLEKF-235",
+   "en": "Head of the Analysis Area",
+   "es": "Encargado de Área de Análisis",
+   "sources": [
+    "s4"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-233",
+   "alt": []
+  },
+  {
+   "n": 236,
+   "id": "lqTdwKVyBlNljflqLEKF-236",
+   "en": "Head of the Administrative Section and Administrative Warrant Officer",
+   "es": "Jefe de la Sección Administrativa y Subteniente Oficinista",
+   "sources": [
+    "s4"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-233",
+   "alt": []
+  },
+  {
+   "n": 237,
+   "id": "lqTdwKVyBlNljflqLEKF-237",
+   "en": "Movable Assets Controller for the Organization",
+   "es": "Controlador de Bienes Muebles del Organismo",
+   "sources": [
+    "s4"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-233",
+   "alt": []
+  },
+  {
+   "n": 238,
+   "id": "lqTdwKVyBlNljflqLEKF-238",
+   "en": "Intelligence Fusion Battalion",
+   "es": "Batallón de Fusión de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "deconflict with Intelligence Battalion (Batallón de Inteligencia.)",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 239,
+   "id": "lqTdwKVyBlNljflqLEKF-239",
+   "en": "3 Intelligence Companies",
+   "es": "3 Compañías de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "need to embed in cerfi",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-377",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 240,
+   "id": "lqTdwKVyBlNljflqLEKF-240",
+   "en": "Intelligence Company \"Northeast\"",
+   "es": "Compañía de Inteligencia “Noreste” (Apodaca, N.L.)",
+   "sources": [
+    "s14"
+   ],
+   "note": "need to embed in cerfi",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-239",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 242,
+   "id": "lqTdwKVyBlNljflqLEKF-242",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "mult": 2,
+   "parent": "lqTdwKVyBlNljflqLEKF-240",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 243,
+   "id": "lqTdwKVyBlNljflqLEKF-243",
+   "en": "Liaison Group",
+   "es": "Grupo de Enlace",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 244,
+   "id": "lqTdwKVyBlNljflqLEKF-244",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 245,
+   "id": "lqTdwKVyBlNljflqLEKF-245",
+   "en": "Administrative Section",
+   "es": "Sección administrativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 246,
+   "id": "lqTdwKVyBlNljflqLEKF-246",
+   "en": "Maintenance Section",
+   "es": "Sección de Mantenimiento",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 247,
+   "id": "lqTdwKVyBlNljflqLEKF-247",
+   "en": "Counterintelligence Section",
+   "es": "Sección de Contrainteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 248,
+   "id": "lqTdwKVyBlNljflqLEKF-248",
+   "en": "Network and Physical Security Section (NOC/SOC).",
+   "es": "Sección de Redes y Seguridad Física (NOC/SOC)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 249,
+   "id": "lqTdwKVyBlNljflqLEKF-249",
+   "en": "Intelligence Section",
+   "es": "Sección de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 250,
+   "id": "lqTdwKVyBlNljflqLEKF-250",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-249",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 251,
+   "id": "lqTdwKVyBlNljflqLEKF-251",
+   "en": "Analysis Platoon",
+   "es": "Pelotón de Análisis",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-250",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 252,
+   "id": "lqTdwKVyBlNljflqLEKF-252",
+   "en": "Cabinet Processing Platoon",
+   "es": "Pelotón de Procesamiento de Gabinete",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-250",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 255,
+   "id": "lqTdwKVyBlNljflqLEKF-255",
+   "en": "Operations Section",
+   "es": "Sección de Operaciones",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 256,
+   "id": "lqTdwKVyBlNljflqLEKF-256",
+   "en": "Ministerial section",
+   "es": "Sección ministerial",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-242",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 257,
+   "id": "lqTdwKVyBlNljflqLEKF-257",
+   "en": "Investigation Platoon",
+   "es": "Pelotón de Investigación",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "dossier-mando-255",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 258,
+   "id": "lqTdwKVyBlNljflqLEKF-258",
+   "en": "Information Analysis Platoon",
+   "es": "Pelotón de Análisis de Información",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "dossier-mando-255",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 271,
+   "id": "lqTdwKVyBlNljflqLEKF-271",
+   "en": "Intelligence Company \"Center\"",
+   "es": "Compañía de Inteligencia “Centro” (Iguala, Gro.)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-239",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 273,
+   "id": "lqTdwKVyBlNljflqLEKF-273",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "mult": 2,
+   "parent": "lqTdwKVyBlNljflqLEKF-271",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 274,
+   "id": "lqTdwKVyBlNljflqLEKF-274",
+   "en": "Liaison Group",
+   "es": "Grupo de Enlace",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 275,
+   "id": "lqTdwKVyBlNljflqLEKF-275",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 276,
+   "id": "lqTdwKVyBlNljflqLEKF-276",
+   "en": "Administrative Section",
+   "es": "Sección administrativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 277,
+   "id": "lqTdwKVyBlNljflqLEKF-277",
+   "en": "Maintenance Section",
+   "es": "Sección de Mantenimiento",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 278,
+   "id": "lqTdwKVyBlNljflqLEKF-278",
+   "en": "Counterintelligence Section",
+   "es": "Sección de Contrainteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 279,
+   "id": "lqTdwKVyBlNljflqLEKF-279",
+   "en": "Network and Physical Security Section (NOC/SOC).",
+   "es": "Sección de Redes y Seguridad Física (NOC/SOC)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 280,
+   "id": "lqTdwKVyBlNljflqLEKF-280",
+   "en": "Intelligence Section",
+   "es": "Sección de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 281,
+   "id": "lqTdwKVyBlNljflqLEKF-281",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-280",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 282,
+   "id": "lqTdwKVyBlNljflqLEKF-282",
+   "en": "Analysis Platoon",
+   "es": "Pelotón de Análisis",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-281",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 283,
+   "id": "lqTdwKVyBlNljflqLEKF-283",
+   "en": "Cabinet Processing Platoon",
+   "es": "Pelotón de Procesamiento de Gabinete",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-281",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 286,
+   "id": "lqTdwKVyBlNljflqLEKF-286",
+   "en": "Operations Section",
+   "es": "Sección de Operaciones",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 287,
+   "id": "lqTdwKVyBlNljflqLEKF-287",
+   "en": "Ministerial section",
+   "es": "Sección ministerial",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-273",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 288,
+   "id": "lqTdwKVyBlNljflqLEKF-288",
+   "en": "Investigation Platoon",
+   "es": "Pelotón de Investigación",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "dossier-mando-286",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 289,
+   "id": "lqTdwKVyBlNljflqLEKF-289",
+   "en": "Information Analysis Platoon",
+   "es": "Pelotón de Análisis de Información",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "dossier-mando-286",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 302,
+   "id": "lqTdwKVyBlNljflqLEKF-302",
+   "en": "Intelligence Company \"Northwest\"",
+   "es": "Compañía de Inteligencia “Noreste” (Apodaca, N.L.)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-239",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 304,
+   "id": "lqTdwKVyBlNljflqLEKF-304",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "mult": 2,
+   "parent": "lqTdwKVyBlNljflqLEKF-302",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 305,
+   "id": "lqTdwKVyBlNljflqLEKF-305",
+   "en": "Liaison Group",
+   "es": "Grupo de Enlace",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 306,
+   "id": "lqTdwKVyBlNljflqLEKF-306",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 307,
+   "id": "lqTdwKVyBlNljflqLEKF-307",
+   "en": "Administrative Section",
+   "es": "Sección administrativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 308,
+   "id": "lqTdwKVyBlNljflqLEKF-308",
+   "en": "Maintenance Section",
+   "es": "Sección de Mantenimiento",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 309,
+   "id": "lqTdwKVyBlNljflqLEKF-309",
+   "en": "Counterintelligence Section",
+   "es": "Sección de Contrainteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 310,
+   "id": "lqTdwKVyBlNljflqLEKF-310",
+   "en": "Network and Physical Security Section (NOC/SOC).",
+   "es": "Sección de Redes y Seguridad Física (NOC/SOC)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 311,
+   "id": "lqTdwKVyBlNljflqLEKF-311",
+   "en": "Intelligence Section",
+   "es": "Sección de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 312,
+   "id": "lqTdwKVyBlNljflqLEKF-312",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-311",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 313,
+   "id": "lqTdwKVyBlNljflqLEKF-313",
+   "en": "Analysis Platoon",
+   "es": "Pelotón de Análisis",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-312",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 314,
+   "id": "lqTdwKVyBlNljflqLEKF-314",
+   "en": "Cabinet Processing Platoon",
+   "es": "Pelotón de Procesamiento de Gabinete",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-312",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 317,
+   "id": "lqTdwKVyBlNljflqLEKF-317",
+   "en": "Operations Section",
+   "es": "Sección de Operaciones",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 318,
+   "id": "lqTdwKVyBlNljflqLEKF-318",
+   "en": "Ministerial section",
+   "es": "Sección ministerial",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-304",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 319,
+   "id": "lqTdwKVyBlNljflqLEKF-319",
+   "en": "Investigation Platoon",
+   "es": "Pelotón de Investigación",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "dossier-mando-317",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 320,
+   "id": "lqTdwKVyBlNljflqLEKF-320",
+   "en": "Information Analysis Platoon",
+   "es": "Pelotón de Análisis de Información",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "dossier-mando-317",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 333,
+   "id": "lqTdwKVyBlNljflqLEKF-333",
+   "en": "2 Intelligence Sections",
+   "es": "3 Secciónes de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-377",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 335,
+   "id": "lqTdwKVyBlNljflqLEKF-335",
+   "en": "Intelligence Section \"West\"",
+   "es": "Sección de Inteligencia “Occidente” (Manzanillo, Col.)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-333",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 336,
+   "id": "lqTdwKVyBlNljflqLEKF-336",
+   "en": "Administrative Platoon",
+   "es": "Pelotón administrativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 337,
+   "id": "lqTdwKVyBlNljflqLEKF-337",
+   "en": "Counterintelligence Platoon",
+   "es": "Pelotón de Contrainteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 338,
+   "id": "lqTdwKVyBlNljflqLEKF-338",
+   "en": "Network and Physical Security Platoon (NOC/SOC).",
+   "es": "Pelotón de Redes y Seguridad Física (NOC/SOC)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 339,
+   "id": "lqTdwKVyBlNljflqLEKF-339",
+   "en": "Analysis Platoon",
+   "es": "Pelotón de Análisis",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 348,
+   "id": "lqTdwKVyBlNljflqLEKF-348",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-335",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 349,
+   "id": "lqTdwKVyBlNljflqLEKF-349",
+   "en": "Cabinet Processing Platoon",
+   "es": "Pelotón de Procesamiento de Gabinete",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 350,
+   "id": "lqTdwKVyBlNljflqLEKF-350",
+   "en": "Ministerial Platoon",
+   "es": "Pelotón ministerial",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 351,
+   "id": "lqTdwKVyBlNljflqLEKF-351",
+   "en": "Investigation Platoon",
+   "es": "Pelotón de Investigación",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 352,
+   "id": "lqTdwKVyBlNljflqLEKF-352",
+   "en": "Information Analysis Platoon",
+   "es": "Pelotón de Análisis de Información",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-348",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-59",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 353,
+   "id": "lqTdwKVyBlNljflqLEKF-353",
+   "en": "Intelligence Section “Southeast”",
+   "es": "Sección de Inteligencia “Sureste” (Coatzacoalcos, Ver.)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-333",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 354,
+   "id": "lqTdwKVyBlNljflqLEKF-354",
+   "en": "Administrative Platoon",
+   "es": "Pelotón administrativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 355,
+   "id": "lqTdwKVyBlNljflqLEKF-355",
+   "en": "Counterintelligence Platoon",
+   "es": "Pelotón de Contrainteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 356,
+   "id": "lqTdwKVyBlNljflqLEKF-356",
+   "en": "Network and Physical Security Platoon (NOC/SOC).",
+   "es": "Pelotón de Redes y Seguridad Física (NOC/SOC)",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 357,
+   "id": "lqTdwKVyBlNljflqLEKF-357",
+   "en": "Analysis Platoon",
+   "es": "Pelotón de Análisis",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 366,
+   "id": "lqTdwKVyBlNljflqLEKF-366",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-353",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 367,
+   "id": "lqTdwKVyBlNljflqLEKF-367",
+   "en": "Cabinet Processing Platoon",
+   "es": "Pelotón de Procesamiento de Gabinete",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 368,
+   "id": "lqTdwKVyBlNljflqLEKF-368",
+   "en": "Ministerial Platoon",
+   "es": "Pelotón ministerial",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 369,
+   "id": "lqTdwKVyBlNljflqLEKF-369",
+   "en": "Investigation Platoon",
+   "es": "Pelotón de Investigación",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 370,
+   "id": "lqTdwKVyBlNljflqLEKF-370",
+   "en": "Information Analysis Platoon",
+   "es": "Pelotón de Análisis de Información",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-366",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-60",
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 377,
+   "id": "lqTdwKVyBlNljflqLEKF-377",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-238",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 378,
+   "id": "lqTdwKVyBlNljflqLEKF-378",
+   "en": "Liasison Group",
+   "es": "Grupo de Enlace",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-377",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 379,
+   "id": "lqTdwKVyBlNljflqLEKF-379",
+   "en": "Command Group",
+   "es": "Grupo de comando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-377",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 380,
+   "id": "lqTdwKVyBlNljflqLEKF-380",
+   "en": "Administrative Office",
+   "es": "Oficina Administrativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-377",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 381,
+   "id": "lqTdwKVyBlNljflqLEKF-381",
+   "en": "Operational Office",
+   "es": "Oficina Operativa",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-377",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 386,
+   "id": "lqTdwKVyBlNljflqLEKF-386",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-381",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 387,
+   "id": "lqTdwKVyBlNljflqLEKF-387",
+   "en": "Air Operations Office",
+   "es": "Oficina de Operaciones Aéreas",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-386",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 388,
+   "id": "lqTdwKVyBlNljflqLEKF-388",
+   "en": "Intelligence Office",
+   "es": "Oficina de Inteligencia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-386",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 389,
+   "id": "lqTdwKVyBlNljflqLEKF-389",
+   "en": "Ministerial Office",
+   "es": "Oficina Ministerial",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-386",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 390,
+   "id": "lqTdwKVyBlNljflqLEKF-390",
+   "en": "Forensic Office",
+   "es": "Oficina de Forensia",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-386",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 391,
+   "id": "lqTdwKVyBlNljflqLEKF-391",
+   "en": "S-2 (Intel) of the National General Staff",
+   "es": "S-2 (Intl.) E.M.D.N.",
+   "sources": [
+    "s3",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 398,
+   "id": "lqTdwKVyBlNljflqLEKF-398",
+   "en": "Head",
+   "es": "Jefe",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-391",
+   "alt": []
+  },
+  {
+   "n": 399,
+   "id": "lqTdwKVyBlNljflqLEKF-399",
+   "en": "Liaison Group",
+   "es": "Grupo de Enlace",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-398",
+   "alt": []
+  },
+  {
+   "n": 400,
+   "id": "lqTdwKVyBlNljflqLEKF-400",
+   "en": "Intelligence Subsection",
+   "es": "Subsección de Inteligencia",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-398",
+   "alt": []
+  },
+  {
+   "n": 401,
+   "id": "lqTdwKVyBlNljflqLEKF-401",
+   "en": "Counterintelligence Subsection",
+   "es": "Subsección de Contrainteligencia",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-398",
+   "alt": []
+  },
+  {
+   "n": 402,
+   "id": "lqTdwKVyBlNljflqLEKF-402",
+   "en": "Information Subsection",
+   "es": "Subsección de Información",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "mult": 2,
+   "parent": "lqTdwKVyBlNljflqLEKF-398",
+   "alt": []
+  },
+  {
+   "n": 404,
+   "id": "lqTdwKVyBlNljflqLEKF-404",
+   "en": "Administration, Documentation, and Development Group",
+   "es": "Subsección de Información",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-398",
+   "alt": []
+  },
+  {
+   "n": 405,
+   "id": "lqTdwKVyBlNljflqLEKF-405",
+   "en": "Joint Operational Intelligence Battalion",
+   "es": "Batallón Mixto de Inteligencia Operativa.",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 406,
+   "id": "lqTdwKVyBlNljflqLEKF-406",
+   "en": "Intelligence Fusion Company",
+   "es": "Compañía de Fusión de Inteligencia",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-415",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s3"
+   ],
+   "rival": "s14|s9"
+  },
+  {
+   "n": 407,
+   "id": "lqTdwKVyBlNljflqLEKF-407",
+   "en": "Command Group",
+   "es": "Grupo Comando",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-415",
+   "alt": []
+  },
+  {
+   "n": 408,
+   "id": "lqTdwKVyBlNljflqLEKF-408",
+   "en": "Liason Group",
+   "es": "Group de Enlace",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-415",
+   "alt": []
+  },
+  {
+   "n": 415,
+   "id": "lqTdwKVyBlNljflqLEKF-415",
+   "en": "Commander",
+   "es": "Cmte.",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-405",
+   "alt": []
+  },
+  {
+   "n": 416,
+   "id": "lqTdwKVyBlNljflqLEKF-416",
+   "en": "Tactical Intelligence and Training Company",
+   "es": "Compañía de Inteligencia y Adiestramiento Táctico",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "mult": 2,
+   "parent": "lqTdwKVyBlNljflqLEKF-415",
+   "alt": []
+  },
+  {
+   "n": 418,
+   "id": "lqTdwKVyBlNljflqLEKF-418",
+   "en": "“Geographic and Statistical” Intelligence Company",
+   "es": "Compañía de Inteligencia “Geográfica y Estadística”",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-415",
+   "alt": []
+  },
+  {
+   "n": 419,
+   "id": "ivSd4MCU5KBmPtKn9ICc-3",
+   "en": "Director",
+   "es": "Director",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-136",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 420,
+   "id": "ivSd4MCU5KBmPtKn9ICc-4",
+   "en": "Monitoring Section",
+   "es": "Sección de Monitoreo",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "dup": "u1",
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 421,
+   "id": "ivSd4MCU5KBmPtKn9ICc-10",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-4",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-146"
+   ],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 422,
+   "id": "ivSd4MCU5KBmPtKn9ICc-11",
+   "en": "Network Analysis Group",
+   "es": "Grupo de Análisis de Redes",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-10",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 423,
+   "id": "ivSd4MCU5KBmPtKn9ICc-12",
+   "en": "Vulnerability Analysis Group",
+   "es": "Grupo de Análisis de Vulnerabilidades",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-10",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 424,
+   "id": "ivSd4MCU5KBmPtKn9ICc-14",
+   "en": "Risk Assessment Group",
+   "es": "Grupo de Evaluación de riesgos",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-10",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 425,
+   "id": "ivSd4MCU5KBmPtKn9ICc-15",
+   "en": "Prevention Group",
+   "es": "Grupo de Prevención",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-10",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 426,
+   "id": "ivSd4MCU5KBmPtKn9ICc-16",
+   "en": "Deputy Director",
+   "es": "Subdirector",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 427,
+   "id": "ivSd4MCU5KBmPtKn9ICc-17",
+   "en": "Incident Response Section",
+   "es": "Sección de Respuesta a Incidentes",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "dup": "u2",
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 428,
+   "id": "ivSd4MCU5KBmPtKn9ICc-21",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-17",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-147"
+   ],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 429,
+   "id": "ivSd4MCU5KBmPtKn9ICc-22",
+   "en": "Alerts Group",
+   "es": "Grupo de Alertas",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-21",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 430,
+   "id": "ivSd4MCU5KBmPtKn9ICc-23",
+   "en": "Immediate Response Group",
+   "es": "Grupo de Respuesta Inmediata",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-21",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 431,
+   "id": "ivSd4MCU5KBmPtKn9ICc-24",
+   "en": "Digital Forensics Group",
+   "es": "Grupo de Forensia Digital",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-21",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 432,
+   "id": "ivSd4MCU5KBmPtKn9ICc-25",
+   "en": "Cyberspace Operations Section",
+   "es": "Sección de Operaciones del Ciberespacio",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "dup": "u3",
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 433,
+   "id": "ivSd4MCU5KBmPtKn9ICc-29",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-25",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-148"
+   ],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 434,
+   "id": "ivSd4MCU5KBmPtKn9ICc-30",
+   "en": "Disruption and Infiltration Operations Group",
+   "es": "Grupo de Operaciones de Interrupción e Infiltración",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-29",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 435,
+   "id": "ivSd4MCU5KBmPtKn9ICc-31",
+   "en": "Cyber-Intelligence Operations Group",
+   "es": "Grupo de Operaciones de Ciberinteligencia",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-29",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 436,
+   "id": "ivSd4MCU5KBmPtKn9ICc-32",
+   "en": "Operations Simulation Group",
+   "es": "Grupo de Simulación de Operaciones",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-29",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 437,
+   "id": "ivSd4MCU5KBmPtKn9ICc-33",
+   "en": "Doctrine and Development Section",
+   "es": "Sección de Doctrina y Desarrollo",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "dup": "u4",
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 438,
+   "id": "ivSd4MCU5KBmPtKn9ICc-37",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-33",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-149"
+   ],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 439,
+   "id": "ivSd4MCU5KBmPtKn9ICc-38",
+   "en": "Doctrine and Development Group",
+   "es": "Grupo de Doctrina y Adiestramiento",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-37",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 440,
+   "id": "ivSd4MCU5KBmPtKn9ICc-39",
+   "en": "Cyber-Defense Tool Investigation and Development Group",
+   "es": "Grupo de Investigación y Desarrollo de Herramientas de Ciberdefensa",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-37",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 441,
+   "id": "ivSd4MCU5KBmPtKn9ICc-40",
+   "en": "Legal and Inter-Institutional Coordination Group",
+   "es": "Grupo Jurídico y Coordinación interinstitucional",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-37",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 442,
+   "id": "ivSd4MCU5KBmPtKn9ICc-41",
+   "en": "Information Security Section",
+   "es": "Sección de Seguridad de la Información",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "dup": "u5",
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 443,
+   "id": "ivSd4MCU5KBmPtKn9ICc-45",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-41",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-150"
+   ],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 444,
+   "id": "ivSd4MCU5KBmPtKn9ICc-46",
+   "en": "Physical Security Group",
+   "es": "Grupo de Seguridad Física",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-45",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 445,
+   "id": "ivSd4MCU5KBmPtKn9ICc-47",
+   "en": "Logical Security Group",
+   "es": "Grupo de Seguridad Lógica",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-45",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 446,
+   "id": "ivSd4MCU5KBmPtKn9ICc-48",
+   "en": "Technical Support Group",
+   "es": "Grupo Soporte Técnico",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-45",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 447,
+   "id": "ivSd4MCU5KBmPtKn9ICc-49",
+   "en": "Administration and General Services Section",
+   "es": "Sección Administrativa y Servicios Generales",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-3",
+   "alt": [],
+   "dup": "u6",
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 448,
+   "id": "ivSd4MCU5KBmPtKn9ICc-56",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-49",
+   "alt": [
+    "lqTdwKVyBlNljflqLEKF-151"
+   ],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 449,
+   "id": "ivSd4MCU5KBmPtKn9ICc-57",
+   "en": "Communications Squad (CEI)",
+   "es": "Escuadra de Transmisiones (CEI)",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-56",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 450,
+   "id": "ivSd4MCU5KBmPtKn9ICc-58",
+   "en": "Records Group",
+   "es": "Grupo de Archivo",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-56",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 451,
+   "id": "ivSd4MCU5KBmPtKn9ICc-59",
+   "en": "Personnel Desk",
+   "es": "Mesa de Personal",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-56",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 452,
+   "id": "ivSd4MCU5KBmPtKn9ICc-60",
+   "en": "Morale and Discipline Desk",
+   "es": "Mesa de Moral y Disciplina",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-56",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 453,
+   "id": "ivSd4MCU5KBmPtKn9ICc-61",
+   "en": "Personnel Administration Desk",
+   "es": "Mesa de Detall",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-56",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 454,
+   "id": "ivSd4MCU5KBmPtKn9ICc-62",
+   "en": "Logistics Desk",
+   "es": "Mesa de Logística",
+   "sources": [
+    "s12"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-56",
+   "alt": [],
+   "conflictsWith": [
+    "s3"
+   ],
+   "rival": "s12|s3"
+  },
+  {
+   "n": 455,
+   "id": "shjStrafDpyl6eUwstzr-8",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-212",
+   "alt": [],
+   "conflictsWith": [
+    "s9"
+   ],
+   "rival": "s8|s9"
+  },
+  {
+   "n": 456,
+   "id": "shjStrafDpyl6eUwstzr-9",
+   "en": "Staff & Services Company",
+   "es": "Compañía de Plana Mayor y Servicios",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 457,
+   "id": "shjStrafDpyl6eUwstzr-10",
+   "en": "1st Information & Communications Analysis Company",
+   "es": "1/a. Compañía de Análisis de Información y Comunicaciones",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 458,
+   "id": "shjStrafDpyl6eUwstzr-11",
+   "en": "2nd Information & Communications Analysis Company",
+   "es": "2/a. Compañía de Análisis de Información y Comunicaciones",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 459,
+   "id": "shjStrafDpyl6eUwstzr-12",
+   "en": "3rd Information & Communications Analysis Company",
+   "es": "3/a. Compañía de Análisis de Información y Comunicaciones",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 460,
+   "id": "shjStrafDpyl6eUwstzr-13",
+   "en": "Technical Research & Development Company",
+   "es": "Compañía Técnica, Investigación y Desarrollo",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 461,
+   "id": "shjStrafDpyl6eUwstzr-15",
+   "en": "Counterintelligence and Security Company",
+   "es": "Compañía de Contrainteligencia y Seguridad",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 462,
+   "id": "shjStrafDpyl6eUwstzr-17",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8",
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-8",
+   "alt": []
+  },
+  {
+   "n": 463,
+   "id": "shjStrafDpyl6eUwstzr-37",
+   "en": "Training, Information, and Operations Section",
+   "es": "Sección de Instrucción, Información y Operaciones (S.I.I.O.)",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-17",
+   "alt": []
+  },
+  {
+   "n": 464,
+   "id": "shjStrafDpyl6eUwstzr-39",
+   "en": "Personnel, Supply, and Adjutancy Section",
+   "es": "Sección de Personal, Abastecimientos y Ayudantía (S.P.A.A.)",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-17",
+   "alt": []
+  },
+  {
+   "n": 465,
+   "id": "shjStrafDpyl6eUwstzr-45",
+   "en": "Legal Advisory Group",
+   "es": "Grupo de Asesoría Jurídica",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-17",
+   "alt": []
+  },
+  {
+   "n": 466,
+   "id": "shjStrafDpyl6eUwstzr-49",
+   "en": "Headquarters",
+   "es": "Jefatura",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-37",
+   "alt": []
+  },
+  {
+   "n": 467,
+   "id": "shjStrafDpyl6eUwstzr-50",
+   "en": "Training Group",
+   "es": "Grupo de Adiestramiento",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-49",
+   "alt": []
+  },
+  {
+   "n": 468,
+   "id": "shjStrafDpyl6eUwstzr-51",
+   "en": "Operations Group",
+   "es": "Grupo de Operaciones",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-49",
+   "alt": []
+  },
+  {
+   "n": 469,
+   "id": "shjStrafDpyl6eUwstzr-58",
+   "en": "Headquarters",
+   "es": "Jefatura",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-39",
+   "alt": []
+  },
+  {
+   "n": 470,
+   "id": "shjStrafDpyl6eUwstzr-59",
+   "en": "Personnel, Supply, and Adjutancy Group",
+   "es": "Grupo de Personal, Abastecimientos y Ayudantía",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-58",
+   "alt": []
+  },
+  {
+   "n": 471,
+   "id": "shjStrafDpyl6eUwstzr-60",
+   "en": "Records Group",
+   "es": "Grupo de Archivo",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-58",
+   "alt": []
+  },
+  {
+   "n": 472,
+   "id": "shjStrafDpyl6eUwstzr-61",
+   "en": "Liaison Group",
+   "es": "Grupo de Enlace",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-58",
+   "alt": []
+  },
+  {
+   "n": 473,
+   "id": "shjStrafDpyl6eUwstzr-65",
+   "en": "Headquarters",
+   "es": "Jefatura",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-45",
+   "alt": []
+  },
+  {
+   "n": 474,
+   "id": "shjStrafDpyl6eUwstzr-66",
+   "en": "Legal Advisory Group",
+   "es": "Grupo de Asesoría Jurídica",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-65",
+   "alt": []
+  },
+  {
+   "n": 475,
+   "id": "shjStrafDpyl6eUwstzr-89",
+   "en": "Command",
+   "es": "Comandancia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-10",
+   "alt": []
+  },
+  {
+   "n": 476,
+   "id": "shjStrafDpyl6eUwstzr-90",
+   "en": "1st Information & Communications Analysis Section",
+   "es": "1/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-89",
+   "alt": []
+  },
+  {
+   "n": 477,
+   "id": "shjStrafDpyl6eUwstzr-92",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-90",
+   "alt": []
+  },
+  {
+   "n": 478,
+   "id": "shjStrafDpyl6eUwstzr-94",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-90",
+   "alt": []
+  },
+  {
+   "n": 479,
+   "id": "shjStrafDpyl6eUwstzr-96",
+   "en": "2nd Information & Communications Analysis Section",
+   "es": "2/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-89",
+   "alt": []
+  },
+  {
+   "n": 480,
+   "id": "shjStrafDpyl6eUwstzr-98",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-96",
+   "alt": []
+  },
+  {
+   "n": 481,
+   "id": "shjStrafDpyl6eUwstzr-100",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-96",
+   "alt": []
+  },
+  {
+   "n": 482,
+   "id": "shjStrafDpyl6eUwstzr-102",
+   "en": "3rd Information & Communications Analysis Section",
+   "es": "3/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-89",
+   "alt": []
+  },
+  {
+   "n": 483,
+   "id": "shjStrafDpyl6eUwstzr-104",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-102",
+   "alt": []
+  },
+  {
+   "n": 484,
+   "id": "shjStrafDpyl6eUwstzr-106",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-102",
+   "alt": []
+  },
+  {
+   "n": 485,
+   "id": "shjStrafDpyl6eUwstzr-109",
+   "en": "Command",
+   "es": "Comandancia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-11",
+   "alt": []
+  },
+  {
+   "n": 486,
+   "id": "shjStrafDpyl6eUwstzr-110",
+   "en": "1st Information & Communications Analysis Section",
+   "es": "1/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-109",
+   "alt": []
+  },
+  {
+   "n": 487,
+   "id": "shjStrafDpyl6eUwstzr-112",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-110",
+   "alt": []
+  },
+  {
+   "n": 488,
+   "id": "shjStrafDpyl6eUwstzr-114",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-110",
+   "alt": []
+  },
+  {
+   "n": 489,
+   "id": "shjStrafDpyl6eUwstzr-116",
+   "en": "2nd Information & Communications Analysis Section",
+   "es": "2/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-109",
+   "alt": []
+  },
+  {
+   "n": 490,
+   "id": "shjStrafDpyl6eUwstzr-118",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-116",
+   "alt": []
+  },
+  {
+   "n": 491,
+   "id": "shjStrafDpyl6eUwstzr-120",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-116",
+   "alt": []
+  },
+  {
+   "n": 492,
+   "id": "shjStrafDpyl6eUwstzr-122",
+   "en": "3rd Information & Communications Analysis Section",
+   "es": "3/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-109",
+   "alt": []
+  },
+  {
+   "n": 493,
+   "id": "shjStrafDpyl6eUwstzr-124",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-122",
+   "alt": []
+  },
+  {
+   "n": 494,
+   "id": "shjStrafDpyl6eUwstzr-126",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-122",
+   "alt": []
+  },
+  {
+   "n": 495,
+   "id": "shjStrafDpyl6eUwstzr-129",
+   "en": "Command",
+   "es": "Comandancia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-12",
+   "alt": []
+  },
+  {
+   "n": 496,
+   "id": "shjStrafDpyl6eUwstzr-130",
+   "en": "1st Information & Communications Analysis Section",
+   "es": "1/a. Sección de Análisis de Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-129",
+   "alt": []
+  },
+  {
+   "n": 497,
+   "id": "shjStrafDpyl6eUwstzr-132",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-130",
+   "alt": []
+  },
+  {
+   "n": 498,
+   "id": "shjStrafDpyl6eUwstzr-134",
+   "en": "4 Analysis Platoons",
+   "es": "4 Pelotones de Análisis",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-130",
+   "alt": []
+  },
+  {
+   "n": 499,
+   "id": "shjStrafDpyl6eUwstzr-136",
+   "en": "Special Analysis Section",
+   "es": "Sección de Análisis Especial",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-129",
+   "alt": []
+  },
+  {
+   "n": 500,
+   "id": "shjStrafDpyl6eUwstzr-138",
+   "en": "Personnel Control Platoon",
+   "es": "Pelotón de Control de Personal",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-136",
+   "alt": []
+  },
+  {
+   "n": 501,
+   "id": "shjStrafDpyl6eUwstzr-140",
+   "en": "Content Development Platoon",
+   "es": "Pelotón de Desarrollo de Contenido",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-136",
+   "alt": []
+  },
+  {
+   "n": 502,
+   "id": "shjStrafDpyl6eUwstzr-142",
+   "en": "Monitoring Platoon",
+   "es": "Pelotón de Monitoreo",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-136",
+   "alt": []
+  },
+  {
+   "n": 503,
+   "id": "shjStrafDpyl6eUwstzr-144",
+   "en": "Operators Platoon",
+   "es": "Pelotón de Operadores",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-136",
+   "alt": []
+  },
+  {
+   "n": 504,
+   "id": "shjStrafDpyl6eUwstzr-146",
+   "en": "Monitoring & Statistics Section",
+   "es": "Sección de Seguimiento y Estadística",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-129",
+   "alt": []
+  },
+  {
+   "n": 505,
+   "id": "shjStrafDpyl6eUwstzr-148",
+   "en": "Technical Studies Platoon",
+   "es": "Pelotón de Estudios Técnicos",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-146",
+   "alt": []
+  },
+  {
+   "n": 506,
+   "id": "shjStrafDpyl6eUwstzr-150",
+   "en": "Statistics Squad",
+   "es": "Escuadra de Estadística",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-146",
+   "alt": []
+  },
+  {
+   "n": 507,
+   "id": "shjStrafDpyl6eUwstzr-152",
+   "en": "Support Communications Section",
+   "es": "Sección de Comunicaciones de Apoyo",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-129",
+   "alt": []
+  },
+  {
+   "n": 508,
+   "id": "shjStrafDpyl6eUwstzr-154",
+   "en": "Administrative Platoon",
+   "es": "Pelotón Admtvo.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-152",
+   "alt": []
+  },
+  {
+   "n": 509,
+   "id": "shjStrafDpyl6eUwstzr-156",
+   "en": "Maintenance Platoon",
+   "es": "Pelotón de Mantto.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-152",
+   "alt": []
+  },
+  {
+   "n": 510,
+   "id": "shjStrafDpyl6eUwstzr-158",
+   "en": "Operators Platoon",
+   "es": "Pelotón de Operadores",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-152",
+   "alt": []
+  },
+  {
+   "n": 511,
+   "id": "shjStrafDpyl6eUwstzr-162",
+   "en": "Command",
+   "es": "Comandancia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-13",
+   "alt": []
+  },
+  {
+   "n": 512,
+   "id": "shjStrafDpyl6eUwstzr-163",
+   "en": "Technical Administrative Group",
+   "es": "Grupo Técnico Admtvo.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-162",
+   "alt": []
+  },
+  {
+   "n": 513,
+   "id": "shjStrafDpyl6eUwstzr-165",
+   "en": "Facilities Maintenance Section",
+   "es": "Sección de Manto. Instls.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-162",
+   "alt": []
+  },
+  {
+   "n": 514,
+   "id": "shjStrafDpyl6eUwstzr-167",
+   "en": "Industrial Facilities Maintenance Platoon",
+   "es": "Pelotón de Manto. Industrial a Instalaciones",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-165",
+   "alt": []
+  },
+  {
+   "n": 515,
+   "id": "shjStrafDpyl6eUwstzr-169",
+   "en": "Electrical Equipment Maintenance Platoon",
+   "es": "Pelotón de Mantenimiento a Eq. Eléctrico",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-165",
+   "alt": []
+  },
+  {
+   "n": 516,
+   "id": "shjStrafDpyl6eUwstzr-171",
+   "en": "Electromechanical Equipment Maintenance Platoon",
+   "es": "Pelotón de Manto. a Eq. Electromecánico",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-165",
+   "alt": []
+  },
+  {
+   "n": 517,
+   "id": "shjStrafDpyl6eUwstzr-173",
+   "en": "Alternate Site Facilities & Industrial Equipment Maintenance Platoon",
+   "es": "Pelotón de Manto. a Instalaciones y Eq. Industrial en el Sitio Alterno",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-165",
+   "alt": []
+  },
+  {
+   "n": 518,
+   "id": "shjStrafDpyl6eUwstzr-175",
+   "en": "Information & Communications Technologies Section",
+   "es": "Sección de Tecnologías de la Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-162",
+   "alt": []
+  },
+  {
+   "n": 519,
+   "id": "shjStrafDpyl6eUwstzr-177",
+   "en": "Services & Applications Platoon",
+   "es": "Pelotón de Servicios y Aplicaciones",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 520,
+   "id": "shjStrafDpyl6eUwstzr-179",
+   "en": "Technical Support Platoon",
+   "es": "Pelotón de Soporte Técnico",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 521,
+   "id": "shjStrafDpyl6eUwstzr-181",
+   "en": "Security Platoon",
+   "es": "Pelotón de Seguridad",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 522,
+   "id": "shjStrafDpyl6eUwstzr-183",
+   "en": "Digital Forensic Analysis Platoon",
+   "es": "Pelotón de Análisis Forense Digital",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 523,
+   "id": "shjStrafDpyl6eUwstzr-185",
+   "en": "Satellite Communications Platoon",
+   "es": "Pelotón de Coms. Satelital",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 524,
+   "id": "shjStrafDpyl6eUwstzr-187",
+   "en": "Telephony & Networks Platoon",
+   "es": "Pelotón de Telefonía y Redes",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 525,
+   "id": "shjStrafDpyl6eUwstzr-189",
+   "en": "Radio Links Platoon",
+   "es": "Pelotón de Radioenlaces",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 526,
+   "id": "shjStrafDpyl6eUwstzr-191",
+   "en": "Property Control Platoon",
+   "es": "Pelotón de Control de Bienes",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-175",
+   "alt": []
+  },
+  {
+   "n": 527,
+   "id": "shjStrafDpyl6eUwstzr-193",
+   "en": "Tactical & Strategic Systems Section",
+   "es": "Sección de Sistemas Tác. y Estratégicos",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-162",
+   "alt": []
+  },
+  {
+   "n": 528,
+   "id": "shjStrafDpyl6eUwstzr-195",
+   "en": "Electronic Support Measures Platoon",
+   "es": "Pelotón de Medidas de Apoyo Electrónico",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-193",
+   "alt": []
+  },
+  {
+   "n": 529,
+   "id": "shjStrafDpyl6eUwstzr-197",
+   "en": "Data Fusion Platoon",
+   "es": "Pelotón de Fusión de Datos",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-193",
+   "alt": []
+  },
+  {
+   "n": 530,
+   "id": "shjStrafDpyl6eUwstzr-199",
+   "en": "Military Communications Support Platoon",
+   "es": "Pelotón de Soporte a Coms. Mil.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-193",
+   "alt": []
+  },
+  {
+   "n": 531,
+   "id": "shjStrafDpyl6eUwstzr-201",
+   "en": "Communications Media Platoon",
+   "es": "Pelotón de Medios de Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-193",
+   "alt": []
+  },
+  {
+   "n": 532,
+   "id": "shjStrafDpyl6eUwstzr-203",
+   "en": "Research & Development Section",
+   "es": "Sección de Investigación de Desarrollo",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-162",
+   "alt": []
+  },
+  {
+   "n": 533,
+   "id": "shjStrafDpyl6eUwstzr-205",
+   "en": "Project Management Platoon",
+   "es": "Pelotón de Gestión de Proyectos",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-203",
+   "alt": []
+  },
+  {
+   "n": 534,
+   "id": "shjStrafDpyl6eUwstzr-207",
+   "en": "Laboratories Platoon",
+   "es": "Pelotón de Laboratorios",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-203",
+   "alt": []
+  },
+  {
+   "n": 535,
+   "id": "shjStrafDpyl6eUwstzr-209",
+   "en": "Software Laboratory",
+   "es": "Laboratorio de Software",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-207",
+   "alt": []
+  },
+  {
+   "n": 536,
+   "id": "shjStrafDpyl6eUwstzr-211",
+   "en": "Electronics Laboratory",
+   "es": "Laboratorio de Electrónica",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-207",
+   "alt": []
+  },
+  {
+   "n": 537,
+   "id": "shjStrafDpyl6eUwstzr-217",
+   "en": "Command",
+   "es": "Comandancia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-15",
+   "alt": []
+  },
+  {
+   "n": 538,
+   "id": "shjStrafDpyl6eUwstzr-220",
+   "en": "Information and Communications Technology Security Section",
+   "es": "Sección de Seguridad a las Instalaciones",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-217",
+   "alt": []
+  },
+  {
+   "n": 539,
+   "id": "shjStrafDpyl6eUwstzr-223",
+   "en": "Information and Communications Technology Security Section",
+   "es": "Sección de Sgd. en las Tecnologías de la Infn. y Coms.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-217",
+   "alt": []
+  },
+  {
+   "n": 540,
+   "id": "shjStrafDpyl6eUwstzr-226",
+   "en": "Documentation and Human Resources Security Section",
+   "es": "Sección de Seguridad en la Documentación y RR.HH.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-217",
+   "alt": []
+  },
+  {
+   "n": 541,
+   "id": "shjStrafDpyl6eUwstzr-227",
+   "en": "Physical Security Platoon",
+   "es": "Pelotón de Seguridad Física",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-220",
+   "alt": []
+  },
+  {
+   "n": 542,
+   "id": "shjStrafDpyl6eUwstzr-228",
+   "en": "Closed-Circuit TV and Access Control Platoon",
+   "es": "Pelotón de Circuito Cerrado de TV y Control de Acceso",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-220",
+   "alt": []
+  },
+  {
+   "n": 543,
+   "id": "shjStrafDpyl6eUwstzr-229",
+   "en": "Physical Security Platoon",
+   "es": "Pelotón de Seguridad Física",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-223",
+   "alt": []
+  },
+  {
+   "n": 544,
+   "id": "shjStrafDpyl6eUwstzr-230",
+   "en": "Closed-Circuit TV and Access Control Platoon",
+   "es": "Pelotón de Circuito Cerrado de TV y Control de Acceso",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-223",
+   "alt": []
+  },
+  {
+   "n": 545,
+   "id": "shjStrafDpyl6eUwstzr-231",
+   "en": "Documentation Security Platoon",
+   "es": "Pelotón de Seguridad en la Documentación",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-226",
+   "alt": []
+  },
+  {
+   "n": 546,
+   "id": "shjStrafDpyl6eUwstzr-232",
+   "en": "Human Resources Security Platoon",
+   "es": "Pelotón de Seguridad en los RR.HH.",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-226",
+   "alt": []
+  },
+  {
+   "n": 547,
+   "id": "shjStrafDpyl6eUwstzr-328",
+   "en": "Command",
+   "es": "Comandancia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-9",
+   "alt": []
+  },
+  {
+   "n": 548,
+   "id": "shjStrafDpyl6eUwstzr-329",
+   "en": "Intendance Platoon",
+   "es": "Pelotón de Intendencia",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-328",
+   "alt": []
+  },
+  {
+   "n": 549,
+   "id": "shjStrafDpyl6eUwstzr-331",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-329",
+   "alt": []
+  },
+  {
+   "n": 550,
+   "id": "shjStrafDpyl6eUwstzr-333",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-329",
+   "alt": []
+  },
+  {
+   "n": 551,
+   "id": "shjStrafDpyl6eUwstzr-335",
+   "en": "Supply Squad",
+   "es": "Escuadra de Abastecimientos",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-329",
+   "alt": []
+  },
+  {
+   "n": 552,
+   "id": "shjStrafDpyl6eUwstzr-337",
+   "en": "3 Subsistence Squads",
+   "es": "3 Escuadras de Subsistencias",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-329",
+   "alt": []
+  },
+  {
+   "n": 553,
+   "id": "shjStrafDpyl6eUwstzr-339",
+   "en": "Medical Platoon",
+   "es": "Pelotón de Sanidad",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-328",
+   "alt": []
+  },
+  {
+   "n": 554,
+   "id": "shjStrafDpyl6eUwstzr-341",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-339",
+   "alt": []
+  },
+  {
+   "n": 555,
+   "id": "shjStrafDpyl6eUwstzr-343",
+   "en": "Aid Station & Evacuation Squad",
+   "es": "Escuadra de Puesto de Socorro y Evacuación",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-339",
+   "alt": []
+  },
+  {
+   "n": 556,
+   "id": "shjStrafDpyl6eUwstzr-345",
+   "en": "Dental Squad",
+   "es": "Escuadra Dental",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-339",
+   "alt": []
+  },
+  {
+   "n": 557,
+   "id": "shjStrafDpyl6eUwstzr-347",
+   "en": "Transport Platoon",
+   "es": "Pelotón de Transportes",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-328",
+   "alt": []
+  },
+  {
+   "n": 558,
+   "id": "shjStrafDpyl6eUwstzr-349",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-347",
+   "alt": []
+  },
+  {
+   "n": 559,
+   "id": "shjStrafDpyl6eUwstzr-351",
+   "en": "Gasoline Drivers Squad",
+   "es": "Escuadra de Conductores de Gasolina",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-347",
+   "alt": []
+  },
+  {
+   "n": 560,
+   "id": "shjStrafDpyl6eUwstzr-353",
+   "en": "Sandcat Drivers Squad",
+   "es": "Escuadra de Conductores de Sandcat",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-347",
+   "alt": []
+  },
+  {
+   "n": 561,
+   "id": "shjStrafDpyl6eUwstzr-355",
+   "en": "Maintenance Squad",
+   "es": "Escuadra de Mantenimiento",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-347",
+   "alt": []
+  },
+  {
+   "n": 562,
+   "id": "shjStrafDpyl6eUwstzr-357",
+   "en": "War Materiel Platoon",
+   "es": "Pelotón de Materiales de Guerra",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-328",
+   "alt": []
+  },
+  {
+   "n": 563,
+   "id": "shjStrafDpyl6eUwstzr-359",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-357",
+   "alt": []
+  },
+  {
+   "n": 564,
+   "id": "shjStrafDpyl6eUwstzr-361",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-357",
+   "alt": []
+  },
+  {
+   "n": 565,
+   "id": "shjStrafDpyl6eUwstzr-363",
+   "en": "2 Maintenance & Supply Squads",
+   "es": "2 Escuadras de Mantenimiento y Abastecimiento",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-357",
+   "alt": []
+  },
+  {
+   "n": 566,
+   "id": "shjStrafDpyl6eUwstzr-365",
+   "en": "Signals Platoon",
+   "es": "Pelotón de Transmisiones",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-328",
+   "alt": []
+  },
+  {
+   "n": 567,
+   "id": "shjStrafDpyl6eUwstzr-367",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-365",
+   "alt": []
+  },
+  {
+   "n": 568,
+   "id": "shjStrafDpyl6eUwstzr-369",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-365",
+   "alt": []
+  },
+  {
+   "n": 569,
+   "id": "shjStrafDpyl6eUwstzr-371",
+   "en": "Operation Squad",
+   "es": "Escuadra de Operación",
+   "sources": [
+    "s8"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "shjStrafDpyl6eUwstzr-365",
+   "alt": []
+  },
+  {
+   "n": 570,
+   "id": "ivSd4MCU5KBmPtKn9ICc-68",
+   "en": "Special Operations Intelligence Battalion (C.E.O. and GG.A.E.)",
+   "es": "Batallón Ops. Especiales Inteligencia (C.E.O. y GG.A.E.)",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": []
+  },
+  {
+   "n": 571,
+   "id": "ivSd4MCU5KBmPtKn9ICc-75",
+   "en": "Commander",
+   "es": "Comandante",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "containment",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-68",
+   "alt": []
+  },
+  {
+   "n": 572,
+   "id": "ivSd4MCU5KBmPtKn9ICc-76",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-75",
+   "alt": []
+  },
+  {
+   "n": 573,
+   "id": "ivSd4MCU5KBmPtKn9ICc-77",
+   "en": "Headquarters and Special Services Company",
+   "es": "Compañía Plana Mayor y Servicios Especiales",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-75",
+   "alt": []
+  },
+  {
+   "n": 574,
+   "id": "ivSd4MCU5KBmPtKn9ICc-78",
+   "en": "Analysis and Operations Company",
+   "es": "Compañía de Análisis y Operaciones",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-75",
+   "alt": []
+  },
+  {
+   "n": 575,
+   "id": "ivSd4MCU5KBmPtKn9ICc-79",
+   "en": "1st Special Analysis Company",
+   "es": "1/a. Compañía de Análisis Especial",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-75",
+   "alt": []
+  },
+  {
+   "n": 576,
+   "id": "ivSd4MCU5KBmPtKn9ICc-80",
+   "en": "2nd Special Analysis Company",
+   "es": "2/a. Compañía de Análisis Especial",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-75",
+   "alt": []
+  },
+  {
+   "n": 577,
+   "id": "ivSd4MCU5KBmPtKn9ICc-81",
+   "en": "3rd Special Analysis Company",
+   "es": "3/a. Compañía de Análisis Especial",
+   "sources": [
+    "s9"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "ivSd4MCU5KBmPtKn9ICc-75",
+   "alt": []
+  },
+  {
+   "n": 578,
+   "id": "_FasDnG5EFFJvIjz3mfe-60",
+   "en": "Coordination Group of Intelligence Fusion Centers",
+   "es": "Grupo de Coordinación de los Centros de Fusión de Inteligencia",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-21",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 579,
+   "id": "_FasDnG5EFFJvIjz3mfe-63",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-60",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 580,
+   "id": "_FasDnG5EFFJvIjz3mfe-64",
+   "en": "Administrative Group",
+   "es": "Grupo Administrativo",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-63",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 581,
+   "id": "_FasDnG5EFFJvIjz3mfe-70",
+   "en": "Operations Group",
+   "es": "Grupo de Operaciones",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-63",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 582,
+   "id": "_FasDnG5EFFJvIjz3mfe-85",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-64",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 583,
+   "id": "_FasDnG5EFFJvIjz3mfe-86",
+   "en": "Administrative Desk",
+   "es": "Mesa Administrativa",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-85",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 584,
+   "id": "_FasDnG5EFFJvIjz3mfe-87",
+   "en": "Incoming and Outgoing Correspondence Desk",
+   "es": "Mesa de Entrada y Salida",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-85",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 585,
+   "id": "_FasDnG5EFFJvIjz3mfe-94",
+   "en": "Head",
+   "es": "Jefatura",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-70",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 586,
+   "id": "_FasDnG5EFFJvIjz3mfe-95",
+   "en": "Command Group",
+   "es": "Grupo de Comando",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-94",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 587,
+   "id": "_FasDnG5EFFJvIjz3mfe-96",
+   "en": "Office of Intelligence and Analysis",
+   "es": "Oficina de Inteligencia y Análisis",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-94",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 588,
+   "id": "_FasDnG5EFFJvIjz3mfe-97",
+   "en": "Ministerial Office",
+   "es": "Oficina Ministerial",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-94",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 589,
+   "id": "_FasDnG5EFFJvIjz3mfe-98",
+   "en": "Forensic Office",
+   "es": "Oficina de Forensia",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-94",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 590,
+   "id": "_FasDnG5EFFJvIjz3mfe-99",
+   "en": "Air Operations Group",
+   "es": "Grupo de Operaciones Aéreas",
+   "sources": [
+    "s3"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-94",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-113",
+   "conflictsWith": [
+    "s14",
+    "s9"
+   ],
+   "rival": "s14|s3"
+  },
+  {
+   "n": 591,
+   "id": "_FasDnG5EFFJvIjz3mfe-6",
+   "en": "Director",
+   "es": "Director",
+   "sources": [
+    "s11"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-60",
+   "alt": []
+  },
+  {
+   "n": 592,
+   "id": "_FasDnG5EFFJvIjz3mfe-7",
+   "en": "Deputy Director",
+   "es": "Subdirector",
+   "sources": [
+    "s11"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-6",
+   "alt": []
+  },
+  {
+   "n": 593,
+   "id": "_FasDnG5EFFJvIjz3mfe-8",
+   "en": "Head of Operations",
+   "es": "Jefe de Operaciones",
+   "sources": [
+    "s11"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-6",
+   "alt": []
+  },
+  {
+   "n": 594,
+   "id": "_FasDnG5EFFJvIjz3mfe-9",
+   "en": "Head of Administrative Office",
+   "es": "Jefe de la Oficina Administrativa",
+   "sources": [
+    "s11"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "_FasDnG5EFFJvIjz3mfe-6",
+   "alt": []
+  },
+  {
+   "n": 595,
+   "id": "dossier-mando-255",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-255",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-57"
+  },
+  {
+   "n": 596,
+   "id": "dossier-mando-286",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-286",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-56"
+  },
+  {
+   "n": 597,
+   "id": "dossier-mando-317",
+   "en": "Command",
+   "es": "Mando",
+   "sources": [
+    "s14"
+   ],
+   "note": "",
+   "cerfi": true,
+   "via": "containment",
+   "parent": "lqTdwKVyBlNljflqLEKF-317",
+   "alt": [],
+   "feeds": "lqTdwKVyBlNljflqLEKF-58"
+  },
+  {
+   "n": 598,
+   "id": "SM7yWoIXiy7KNCWRHpc9-1",
+   "en": "Second Section (Intelligence)",
+   "es": "Seccion Segunda (Inteligencia)",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "lqTdwKVyBlNljflqLEKF-14",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 599,
+   "id": "SM7yWoIXiy7KNCWRHpc9-2",
+   "en": "Administrative Group",
+   "es": "Grupo Administrativo",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-1",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 600,
+   "id": "SM7yWoIXiy7KNCWRHpc9-3",
+   "en": "Liaison Office",
+   "es": "Oficina de Enlace",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-2",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 601,
+   "id": "SM7yWoIXiy7KNCWRHpc9-5",
+   "en": "Incoming and Outgoing Correspondence Desk",
+   "es": "Mesa de Entrada y Salida",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-2",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 602,
+   "id": "SM7yWoIXiy7KNCWRHpc9-7",
+   "en": "Administrative Office",
+   "es": "Oficina Administrativa",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-2",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 603,
+   "id": "SM7yWoIXiy7KNCWRHpc9-9",
+   "en": "Personnel Management Desk",
+   "es": "Mesa de Manejo de Personal",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-2",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 604,
+   "id": "SM7yWoIXiy7KNCWRHpc9-12",
+   "en": "Intelligence Subsection",
+   "es": "Subseccion de Inteligencia",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-1",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 605,
+   "id": "SM7yWoIXiy7KNCWRHpc9-13",
+   "en": "National Defense Analysis Group",
+   "es": "Grupo de Analisis para la Defensa Nacional",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-12",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 606,
+   "id": "SM7yWoIXiy7KNCWRHpc9-14",
+   "en": "National Power Analysis Desk",
+   "es": "Mesa de Analisis del Poder Nacional",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-13",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 607,
+   "id": "SM7yWoIXiy7KNCWRHpc9-16",
+   "en": "International Conflicts Desk",
+   "es": "Mesa de Conflictos Internacionales",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-13",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 608,
+   "id": "SM7yWoIXiy7KNCWRHpc9-18",
+   "en": "International Affairs Desk",
+   "es": "Mesa de Asuntos Internacionales",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-13",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 609,
+   "id": "SM7yWoIXiy7KNCWRHpc9-21",
+   "en": "National Security Analysis Group",
+   "es": "Grupo de Analisis para la Seguridad Nacional",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-12",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 610,
+   "id": "SM7yWoIXiy7KNCWRHpc9-22",
+   "en": "Analysis Group",
+   "es": "Grupo de Analisis",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-21",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 611,
+   "id": "SM7yWoIXiy7KNCWRHpc9-25",
+   "en": "Current Affairs Group",
+   "es": "Grupo de Asuntos Coyunturales",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-12",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 612,
+   "id": "SM7yWoIXiy7KNCWRHpc9-26",
+   "en": "Current Affairs Analysis Desk",
+   "es": "Mesa de Analisis Coyuntural",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-25",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 613,
+   "id": "SM7yWoIXiy7KNCWRHpc9-30",
+   "en": "Counterintelligence Subsection",
+   "es": "Subseccion de Contrainteligencia",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-1",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 614,
+   "id": "SM7yWoIXiy7KNCWRHpc9-31",
+   "en": "Counterintelligence Group",
+   "es": "Grupo de Contrainteligencia",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-30",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 615,
+   "id": "SM7yWoIXiy7KNCWRHpc9-32",
+   "en": "Integration Desk",
+   "es": "Mesa de Integracion",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-31",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 616,
+   "id": "SM7yWoIXiy7KNCWRHpc9-34",
+   "en": "Active Measures Desk",
+   "es": "Mesa de Medidas Activas",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-31",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 617,
+   "id": "SM7yWoIXiy7KNCWRHpc9-36",
+   "en": "Passive Measures Desk",
+   "es": "Mesa de Medidas Pasivas",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-31",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 618,
+   "id": "SM7yWoIXiy7KNCWRHpc9-38",
+   "en": "Technological Security Desk",
+   "es": "Mesa de Seguridad Tecnologica",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-31",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 619,
+   "id": "SM7yWoIXiy7KNCWRHpc9-40",
+   "en": "Comms Security & Cryptography Desk",
+   "es": "Mesa de Seguridad en Comunicaciones y Criptografia",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-31",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 620,
+   "id": "SM7yWoIXiy7KNCWRHpc9-42",
+   "en": "Forensics Laboratory",
+   "es": "Laboratorio de Criminalistica",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-31",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 621,
+   "id": "SM7yWoIXiy7KNCWRHpc9-45",
+   "en": "Special Communications Group",
+   "es": "Grupo de Comunicaciones Especiales",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-30",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 622,
+   "id": "SM7yWoIXiy7KNCWRHpc9-46",
+   "en": "Monitoring & Communications Desk",
+   "es": "Mesa de Monitoreo y Comunicaciones",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-45",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 623,
+   "id": "SM7yWoIXiy7KNCWRHpc9-48",
+   "en": "Radio Direction-Finding Desk",
+   "es": "Mesa de Radiogoniometria",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-45",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 624,
+   "id": "SM7yWoIXiy7KNCWRHpc9-50",
+   "en": "Electronic Countermeasures Desk",
+   "es": "Mesa de Contramedidas Electronicas",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-45",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 625,
+   "id": "SM7yWoIXiy7KNCWRHpc9-52",
+   "en": "Electronic Counter-Countermeasures Desk",
+   "es": "Mesa de Contra-Contramedidas Electronicas",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-45",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 626,
+   "id": "SM7yWoIXiy7KNCWRHpc9-54",
+   "en": "Cryptanalysis Desk",
+   "es": "Mesa de Criptoanalisis",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-45",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 627,
+   "id": "SM7yWoIXiy7KNCWRHpc9-56",
+   "en": "Traffic Analysis Desk",
+   "es": "Mesa de Analisis de Trafico",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-45",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 628,
+   "id": "SM7yWoIXiy7KNCWRHpc9-59",
+   "en": "Cyber Defense Group",
+   "es": "Grupo de Ciberdefensa",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-30",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 629,
+   "id": "SM7yWoIXiy7KNCWRHpc9-60",
+   "en": "Cyberspace Operations Center (C.O.C.) Desk",
+   "es": "Mesa del Centro de Operaciones del Ciberespacio (C.O.C.)",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-59",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 630,
+   "id": "SM7yWoIXiy7KNCWRHpc9-62",
+   "en": "Beta Desk",
+   "es": "Mesa Beta",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-59",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 631,
+   "id": "SM7yWoIXiy7KNCWRHpc9-65",
+   "en": "Influence & Awareness Operations Group",
+   "es": "Grupo de Operaciones de Influencia y Sensibilizacion",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-30",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 632,
+   "id": "SM7yWoIXiy7KNCWRHpc9-66",
+   "en": "Awareness Operations Desk",
+   "es": "Mesa de Operaciones de Sensibilizacion",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-65",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 633,
+   "id": "SM7yWoIXiy7KNCWRHpc9-68",
+   "en": "Influence Operations Desk",
+   "es": "Mesa de Operaciones de Influencia",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-65",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 634,
+   "id": "SM7yWoIXiy7KNCWRHpc9-72",
+   "en": "Counterterrorism Subsection",
+   "es": "Subseccion de Contraterrorismo",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-1",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 635,
+   "id": "SM7yWoIXiy7KNCWRHpc9-73",
+   "en": "Counterterrorism Group",
+   "es": "Grupo de Contraterrorismo",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-72",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 636,
+   "id": "SM7yWoIXiy7KNCWRHpc9-74",
+   "en": "Counterterrorism (C.T.) Operations & Plans Desk",
+   "es": "Mesa de Operaciones y Planes de Contraterrorismo (C.T.)",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-73",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 637,
+   "id": "SM7yWoIXiy7KNCWRHpc9-76",
+   "en": "Chemical, Biological, Radiological, Nuclear, and Explosive (CBRNE) Substances Desk",
+   "es": "Mesa de Sustancias Quimicas, Biologicas, Radiologicas, Nucleares y Explosivas (Q.B.R.N.E.)",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-73",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 638,
+   "id": "SM7yWoIXiy7KNCWRHpc9-79",
+   "en": "Studies Group",
+   "es": "Grupo de Estudios",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-72",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 639,
+   "id": "SM7yWoIXiy7KNCWRHpc9-80",
+   "en": "Studies & Projects Desk",
+   "es": "Mesa de Estudios y Proyectos",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-79",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  },
+  {
+   "n": 640,
+   "id": "SM7yWoIXiy7KNCWRHpc9-82",
+   "en": "Tracking & Statistics Desk",
+   "es": "Mesa de Seguimiento y Estadistica",
+   "sources": [
+    "s13"
+   ],
+   "note": "",
+   "cerfi": false,
+   "via": "edge",
+   "parent": "SM7yWoIXiy7KNCWRHpc9-79",
+   "alt": [],
+   "conflictsWith": [
+    "s9",
+    "s3"
+   ],
+   "rival": "s13|s9"
+  }
+ ],
+ "rivals": [
+  {
+   "key": "s14|s9",
+   "ids": [
+    "s14",
+    "s9"
+   ],
+   "units": 82,
+   "exclusive": false,
+   "known": true
+  },
+  {
+   "key": "s12|s3",
+   "ids": [
+    "s12",
+    "s3"
+   ],
+   "units": 60,
+   "exclusive": false,
+   "known": true
+  },
+  {
+   "key": "s1|s2",
+   "ids": [
+    "s1",
+    "s2"
+   ],
+   "units": 52,
+   "exclusive": true,
+   "known": true
+  },
+  {
+   "key": "s13|s9",
+   "ids": [
+    "s13",
+    "s9"
+   ],
+   "units": 43,
+   "exclusive": true,
+   "known": true
+  },
+  {
+   "key": "s14|s3",
+   "ids": [
+    "s14",
+    "s3"
+   ],
+   "units": 13,
+   "exclusive": false,
+   "known": true
+  },
+  {
+   "key": "s8|s9",
+   "ids": [
+    "s8",
+    "s9"
+   ],
+   "units": 1,
+   "exclusive": false,
+   "known": true
+  }
+ ]
+}

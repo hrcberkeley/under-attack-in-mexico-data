@@ -1,0 +1,50 @@
+term,key,english_gloss,dimension,category,weight,press_context_required,first_use,instances,instances_2018,instances_2019,instances_2020,instances_2021,instances_2022,instances_2023,instances_2024
+achichincles,achichincles,"lackeys, underlings",Delegitimization,Discrediting the press,1,True,2019-04-03,58,0,8,0,5,21,15,9
+alcahuetes,alcahuetes,"panderers, enablers",Delegitimization,Discrediting the press,1,True,2019-02-03,64,0,13,5,5,16,15,10
+alquilados,alquilados_bare,rented — hired pens,Accusation of venality,Accusations of corruption,2,True,2019-03-08,101,0,1,11,15,18,38,18
+amarillismo,amarillismo,yellow journalism,Delegitimization,Discrediting the press,1,True,2019-01-02,86,0,7,19,11,9,25,15
+billullos,billullos,cash — bribe money,Accusation of venality,Accusations of corruption,1,True,2019-10-05,21,0,1,2,1,2,6,9
+boletín del conservadurismo,boletin_del_conservadurismo,bulletin of conservatism,Delegitimization,Discrediting the press,3,False,2020-06-16,41,0,0,6,2,14,11,8
+calumnia / calumniar,calumnia_calumniar,slander / to slander,Dishonesty,Accusations of lying,2,True,2018-12-26,383,0,32,28,42,85,69,127
+calumniador,calumniador,slanderer,Dishonesty,Accusations of lying,2,True,2021-09-30,50,0,0,0,0,4,8,38
+canalla,canalla,scoundrel,Delegitimization,Discrediting the press,2,True,2018-12-27,10,0,1,0,2,2,5,0
+canallín,canallin,little scoundrel,Delegitimization,Discrediting the press,2,True,,0,0,0,0,0,0,0,0
+chayotazo,chayotazo,a fat bribe,Accusation of venality,Accusations of corruption,3,False,,0,0,0,0,0,0,0,0
+chayote,chayote,the chayote — a bribe for coverage,Accusation of venality,Accusations of corruption,3,False,2019-01-23,59,0,9,9,10,7,13,11
+chayotero,chayotero,"on the take, bribe-fed",Accusation of venality,Accusations of corruption,3,False,2019-03-08,9,0,1,1,2,1,4,0
+conservadores,conservadores,conservatives,Delegitimization,Discrediting the press,1,True,2019-01-02,1512,0,134,178,237,351,346,266
+deshonestos,deshonestos,dishonest,Dishonesty,Accusations of lying,1,True,2019-09-08,73,0,2,6,8,22,16,19
+difamar / difamación,difamar_difamacion,defame / defamation,Dishonesty,Accusations of lying,2,True,2019-02-27,57,0,8,5,4,19,8,13
+dueños de los medios,duenos_de_los_medios,the owners of the media,Conspiracy,Conspiracy claims,3,False,2019-03-25,117,0,5,9,17,18,28,40
+faccioso,faccioso,"factious, partisan",Delegitimization,Discrediting the press,2,True,2019-09-04,39,0,1,2,12,8,6,10
+fifí,fifi,"fifí — posh, elitist",Delegitimization,Discrediting the press,2,True,2018-12-18,185,1,50,12,34,44,19,25
+golpistas,golpistas,coup-plotters,Conspiracy,Conspiracy claims,1,True,2019-05-22,29,0,1,2,5,18,2,1
+hampa del periodismo,hampa_del_periodismo,the underworld of journalism,Conspiracy,Conspiracy claims,3,False,2019-04-22,105,0,9,13,17,30,10,26
+intelectuales orgánicos,intelectual_organico,organic intellectuals,Delegitimization,Discrediting the press,2,True,2019-03-18,241,0,3,49,55,66,32,36
+libertad de expresión / negocio,libertad_expresion_negocio,press freedom as a business,Press freedom as a business,Discrediting the press,2,True,2019-03-06,24,0,6,4,6,4,0,4
+linchamiento,linchamiento,lynching — a media pile-on,Conspiracy,Conspiracy claims,1,True,2019-02-25,55,0,6,7,22,10,5,5
+mafia del poder,mafia_del_poder,the mafia of power,Conspiracy,Conspiracy claims,1,True,2019-05-18,102,0,2,0,10,37,24,29
+manipulación / manipular,manipulacion_family,manipulation / to manipulate,Dishonesty,Accusations of lying,2,True,2019-01-03,734,0,30,52,85,104,272,191
+medios de manipulación,medios_de_manipulacion,media of manipulation,Delegitimization,Discrediting the press,3,False,2023-03-24,147,0,0,0,0,0,89,58
+mentirosos,mentirosos,liars,Dishonesty,Accusations of lying,1,True,2019-04-05,40,0,1,3,4,6,17,9
+mercenarios,mercenarios,mercenaries,Accusation of venality,Accusations of corruption,2,True,2020-04-14,83,0,0,2,1,26,14,40
+nado sincronizado,nado_sincronizado,synchronized swimming — coverage in unison,Conspiracy,Conspiracy claims,2,True,2020-05-11,15,0,0,1,0,3,9,2
+no es periodismo,no_es_periodismo,that is not journalism,Delegitimization,Discrediting the press,2,True,2020-08-25,7,0,0,0,0,2,2,3
+pasquín,pasquin,"rag, scandal sheet",Delegitimization,Discrediting the press,3,False,2019-03-19,97,0,3,11,11,20,18,34
+pasquín inmundo,pasquin_inmundo,filthy rag,Delegitimization,Discrediting the press,3,False,2020-09-11,23,0,0,5,1,4,4,9
+periodista del régimen,periodista_del_regimen,journalist of the regime,Delegitimization,Discrediting the press,2,True,2019-03-29,29,0,1,1,1,8,13,5
+periodistas famosos,periodistas_famosos,famous journalists,Delegitimization,Discrediting the press,2,False,2020-08-10,51,0,0,2,1,16,18,14
+premio Nobel de periodismo,premio_nobel_periodismo,Nobel Prize of journalism,Delegitimization,Discrediting the press,2,False,2024-02-23,34,0,0,0,0,0,0,34
+prensa alquilada,prensa_alquilada,the rented press,Accusation of venality,Accusations of corruption,3,False,2020-02-27,40,0,0,6,9,8,12,5
+prensa conservadora,prensa_conservadora,the conservative press,Delegitimization,Discrediting the press,3,False,2019-02-12,72,0,19,21,11,14,5,2
+prensa fifí,prensa_fifi,the fifí press,Delegitimization,Discrediting the press,3,False,2018-12-18,52,1,37,5,8,1,0,0
+prensa porfirista,prensa_porfirista,the Porfirian press,Delegitimization,Discrediting the press,3,False,2020-02-19,13,0,0,3,5,2,2,1
+prensa vendida,prensa_vendida,the sold-out press,Accusation of venality,Accusations of corruption,3,False,2019-03-08,52,0,1,11,10,8,17,5
+refrito,refrito,a rehash,Delegitimization,Discrediting the press,1,True,2021-09-02,7,0,0,0,1,2,3,1
+sensacionalista,sensacionalista,sensationalist,Delegitimization,Discrediting the press,1,True,2019-01-03,31,0,2,0,5,7,10,7
+servil,servil,servile,Delegitimization,Discrediting the press,2,True,2018-12-06,15,1,0,2,0,3,2,7
+sicarios del periodismo,sicarios_del_periodismo,hitmen of journalism,Accusation of venality,Accusations of corruption,3,False,,0,0,0,0,0,0,0,0
+tendencioso,tendencioso,"biased, tendentious",Delegitimization,Discrediting the press,2,True,2019-01-08,114,0,6,7,23,19,36,23
+vendidos,vendidos_bare,sellouts,Accusation of venality,Accusations of corruption,2,True,2019-03-08,117,0,3,15,15,19,44,21
+voceros del conservadurismo,voceros_conservadurismo,spokesmen of conservatism,Delegitimization,Discrediting the press,3,False,2020-03-30,16,0,0,4,2,7,1,2
+zopilotes,zopilotes,vultures,Delegitimization,Discrediting the press,2,True,2019-11-12,58,0,1,9,6,18,16,8
